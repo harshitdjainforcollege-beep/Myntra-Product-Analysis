@@ -6,8 +6,8 @@ Dataset
 
 - Source: https://www.kaggle.com/datasets/manishmathias/myntra-fashion-dataset
 - Size: 526,564 rows, 13 original columns
-- Key columns: 'BrandName`, `Category`, `Individual_category`, `category_by_Gender`, `OriginalPrice (in Rs)`, `DiscountPrice (in Rs)`, `DiscountOffer`, `SizeOption`, `Ratings`, `Reviews`
-- The raw CSV is not included in this repo because of its size. Download it from the link above and place it in `data/`.
+- Key columns: BrandName, Category, Individual_category, category_by_Gender, OriginalPrice (in Rs), DiscountPrice (in Rs), DiscountOffer, SizeOption, Ratings, Reviews
+- The raw CSV is not included in this repo because of its size. Download it from the link above and place it in data/.
 
 Tools used
 
