@@ -51,12 +51,12 @@ Repository structure
 
 
 myntra-product-analysis/
-├── README.md
-├── data/               # dataset download instructions
-├── notebooks/          # pandas analysis (24 questions)
-├── mongodb/            # mongosh queries
-├── sql/                # MySQL queries (in progress)
-└── visuals/            # Tableau / Excel / Looker Studio screenshots
+
+1. README.md
+2. data/       # dataset download instructions
+3. notebooks/  # pandas analysis (24 questions)
+4. mongodb/    # mongosh queries
+5. visuals/    # Tableau / Excel / Looker Studio screenshots
 
 
 Dashboards
