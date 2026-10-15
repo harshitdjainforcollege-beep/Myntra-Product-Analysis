@@ -1,0 +1,3289 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0912.1023                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='1b865058c480ca18a1236478ef57414a09ba1298ea386b2ab76985eb461bd4d7' _.fcp.WorkbookFingerprinting.true...creator-author-id='1b865058c480ca18a1236478ef57414a09ba1298ea386b2ab76985eb461bd4d7' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='95cd89d1d0d1de4d5312d624fe563016164faea53fe460f2b88219789dd44796' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='95cd89d1d0d1de4d5312d624fe563016164faea53fe460f2b88219789dd44796' original-version='18.1' source-build='2026.2.3 (20262.26.0912.1023)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <repository-location id='Tab_visual_Myntra' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Myntra Fasion Clothing' inline='true' name='federated.0mcw9ry06q4cz819rc2mc08fie20' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Myntra Fasion Clothing' name='textscan.1kh66971jveti31fh37w20epqltb'>
+            <connection class='textscan' directory='D:/Myntra(data)' filename='Myntra Fasion Clothing.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1kh66971jveti31fh37w20epqltb' name='Myntra Fasion Clothing.csv' table='[Myntra Fasion Clothing#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='URL' ordinal='0' />
+            <column datatype='integer' name='Product_id' ordinal='1' />
+            <column datatype='string' name='BrandName' ordinal='2' />
+            <column datatype='string' name='Category' ordinal='3' />
+            <column datatype='string' name='Individual_category' ordinal='4' />
+            <column datatype='string' name='category_by_Gender' ordinal='5' />
+            <column datatype='string' name='Description' ordinal='6' />
+            <column datatype='integer' name='DiscountPrice (in Rs)' ordinal='7' />
+            <column datatype='integer' name='OriginalPrice (in Rs)' ordinal='8' />
+            <column datatype='string' name='DiscountOffer' ordinal='9' />
+            <column datatype='string' name='SizeOption' ordinal='10' />
+            <column datatype='real' name='Ratings' ordinal='11' />
+            <column datatype='integer' name='Reviews' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Product_id]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Product_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BrandName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BrandName]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>BrandName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Individual_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Individual_category]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Individual_category</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category_by_Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category_by_Gender]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>category_by_Gender</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountPrice (in Rs)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DiscountPrice (in Rs)]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>DiscountPrice (in Rs)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OriginalPrice (in Rs)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OriginalPrice (in Rs)]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>OriginalPrice (in Rs)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiscountOffer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DiscountOffer]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>DiscountOffer</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SizeOption</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SizeOption]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>SizeOption</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ratings]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Ratings</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reviews]</local-name>
+            <parent-name>[Myntra Fasion Clothing.csv]</parent-name>
+            <remote-alias>Reviews</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Brand Name' datatype='string' name='[BrandName]' role='dimension' type='nominal' />
+      <column caption='Discount_Pct' datatype='real' name='[Calculation_0098181873975296]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(([OriginalPrice (in Rs)]-[DiscountPrice (in Rs)])/[OriginalPrice (in Rs)])*100' />
+      </column>
+      <column caption='Discount Offer' datatype='string' name='[DiscountOffer]' role='dimension' type='nominal' />
+      <column caption='Individual category' datatype='string' name='[Individual_category]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[OriginalPrice (in Rs) (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[OriginalPrice (in Rs)]' peg='0' size='1866' />
+      </column>
+      <column datatype='integer' name='[OriginalPrice (in Rs)]' role='measure' type='quantitative' />
+      <column caption='Product id' datatype='integer' name='[Product_id]' role='dimension' type='ordinal' />
+      <column caption='Size Option' datatype='string' name='[SizeOption]' role='dimension' type='nominal' />
+      <column caption='Myntra Fasion Clothing.csv' datatype='table' name='[__tableau_internal_object_id__].[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]' role='measure' type='quantitative' />
+      <column caption='category by Gender' datatype='string' name='[category_by_Gender]' role='dimension' type='nominal' />
+      <column-instance column='[OriginalPrice (in Rs)]' derivation='Avg' name='[avg:OriginalPrice (in Rs):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[OriginalPrice (in Rs)]' derivation='Sum' name='[sum:OriginalPrice (in Rs):qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/THEMAT~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0e28pzh1r61lqf1089f1211x1wbv.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/29/2026 05:45:14 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>URL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[URL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>URL</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>526564</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Product_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>526564</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BrandName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BrandName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BrandName</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5646</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Individual_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Individual_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Individual_category</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>category_by_Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[category_by_Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>category_by_Gender</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Description</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>342144</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DiscountPrice (in Rs)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DiscountPrice (in Rs)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DiscountPrice (in Rs)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6358</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OriginalPrice (in Rs)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[OriginalPrice (in Rs)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OriginalPrice (in Rs)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4737</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DiscountOffer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DiscountOffer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DiscountOffer</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>958</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SizeOption</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SizeOption]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SizeOption</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1689</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ratings</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Ratings]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ratings</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reviews</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reviews]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reviews</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Myntra Fasion Clothing.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1664</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mcw9ry06q4cz819rc2mc08fie20].[avg:OriginalPrice (in Rs):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0mcw9ry06q4cz819rc2mc08fie20].[sum:OriginalPrice (in Rs):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Myntra Fasion Clothing.csv' id='Myntra Fasion Clothing.csv_97C799F705264D1CA7D19BB160BE0020'>
+            <properties context=''>
+              <relation connection='textscan.1kh66971jveti31fh37w20epqltb' name='Myntra Fasion Clothing.csv' table='[Myntra Fasion Clothing#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='URL' ordinal='0' />
+                  <column datatype='integer' name='Product_id' ordinal='1' />
+                  <column datatype='string' name='BrandName' ordinal='2' />
+                  <column datatype='string' name='Category' ordinal='3' />
+                  <column datatype='string' name='Individual_category' ordinal='4' />
+                  <column datatype='string' name='category_by_Gender' ordinal='5' />
+                  <column datatype='string' name='Description' ordinal='6' />
+                  <column datatype='integer' name='DiscountPrice (in Rs)' ordinal='7' />
+                  <column datatype='integer' name='OriginalPrice (in Rs)' ordinal='8' />
+                  <column datatype='string' name='DiscountOffer' ordinal='9' />
+                  <column datatype='string' name='SizeOption' ordinal='10' />
+                  <column datatype='real' name='Ratings' ordinal='11' />
+                  <column datatype='integer' name='Reviews' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Myntra Fasion Clothing' name='federated.0mcw9ry06q4cz819rc2mc08fie20' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mcw9ry06q4cz819rc2mc08fie20'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[OriginalPrice (in Rs)]' role='measure' type='quantitative' />
+            <column-instance column='[OriginalPrice (in Rs)]' derivation='Avg' name='[avg:OriginalPrice (in Rs):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:Category:nk]' value='85' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mcw9ry06q4cz819rc2mc08fie20].[avg:OriginalPrice (in Rs):qk]</rows>
+        <cols>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{39C2C395-6767-49DB-BDAA-1E1189EE50F2}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Myntra Fasion Clothing' name='federated.0mcw9ry06q4cz819rc2mc08fie20' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mcw9ry06q4cz819rc2mc08fie20'>
+            <column caption='Brand Name' datatype='string' name='[BrandName]' role='dimension' type='nominal' />
+            <column caption='Discount_Pct' datatype='real' name='[Calculation_0098181873975296]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([OriginalPrice (in Rs)]-[DiscountPrice (in Rs)])/[OriginalPrice (in Rs)])*100' />
+            </column>
+            <column datatype='integer' name='[DiscountPrice (in Rs)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[OriginalPrice (in Rs)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_0098181873975296]' derivation='Avg' name='[avg:Calculation_0098181873975296:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BrandName]' derivation='None' name='[none:BrandName:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:BrandName:nk]'>
+            <groupfilter function='level-members' level='[none:BrandName:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:BrandName:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;1 Stop Fashion&quot;</bucket>
+              <bucket>&quot;2GO&quot;</bucket>
+              <bucket>&quot;3PIN&quot;</bucket>
+              <bucket>&quot;5TH ANFOLD&quot;</bucket>
+              <bucket>&quot;7Threads&quot;</bucket>
+              <bucket>&quot;9rasa&quot;</bucket>
+              <bucket>&quot;9shines Label&quot;</bucket>
+              <bucket>&quot;9teenAGAIN&quot;</bucket>
+              <bucket>&quot;20Dresses&quot;</bucket>
+              <bucket>&quot;39 THREADS&quot;</bucket>
+              <bucket>&quot;98 Degree North&quot;</bucket>
+              <bucket>&quot;109F&quot;</bucket>
+              <bucket>&quot;250 DESIGNS&quot;</bucket>
+              <bucket>&quot;513&quot;</bucket>
+              <bucket>&quot;883 Police&quot;</bucket>
+              <bucket>&quot;A.T.U.N.&quot;</bucket>
+              <bucket>&quot;AADVIKA&quot;</bucket>
+              <bucket>&quot;aaliya&quot;</bucket>
+              <bucket>&quot;aamna&quot;</bucket>
+              <bucket>&quot;Aanyor&quot;</bucket>
+              <bucket>&quot;AARA&quot;</bucket>
+              <bucket>&quot;Aarika&quot;</bucket>
+              <bucket>&quot;aarke Ritu Kumar&quot;</bucket>
+              <bucket>&quot;Aarrah&quot;</bucket>
+              <bucket>&quot;Aarsha&quot;</bucket>
+              <bucket>&quot;Aaruvi Ruchi Verma&quot;</bucket>
+              <bucket>&quot;aasi&quot;</bucket>
+              <bucket>&quot;AASI - HOUSE OF NAYO&quot;</bucket>
+              <bucket>&quot;Aasiya&quot;</bucket>
+              <bucket>&quot;AASK&quot;</bucket>
+              <bucket>&quot;Aawari&quot;</bucket>
+              <bucket>&quot;Aayna&quot;</bucket>
+              <bucket>&quot;aayusika&quot;</bucket>
+              <bucket>&quot;ABELINO&quot;</bucket>
+              <bucket>&quot;Abhishti&quot;</bucket>
+              <bucket>&quot;Abiti Bella&quot;</bucket>
+              <bucket>&quot;abof&quot;</bucket>
+              <bucket>&quot;AD By Arvind&quot;</bucket>
+              <bucket>&quot;AccessHer&quot;</bucket>
+              <bucket>&quot;ACTIMAXX&quot;</bucket>
+              <bucket>&quot;Active Soul&quot;</bucket>
+              <bucket>&quot;ACTOHOLIC&quot;</bucket>
+              <bucket>&quot;AD &amp; AV&quot;</bucket>
+              <bucket>&quot;ADA&quot;</bucket>
+              <bucket>&quot;ADBUCKS&quot;</bucket>
+              <bucket>&quot;ADEESHA&quot;</bucket>
+              <bucket>&quot;ADIDAS&quot;</bucket>
+              <bucket>&quot;ADIDAS Originals&quot;</bucket>
+              <bucket>&quot;Aditi Wasan&quot;</bucket>
+              <bucket>&quot;ADITRI&quot;</bucket>
+              <bucket>&quot;Admiral&quot;</bucket>
+              <bucket>&quot;Adobe&quot;</bucket>
+              <bucket>&quot;ADORENITE&quot;</bucket>
+              <bucket>&quot;Adwitiya Collection&quot;</bucket>
+              <bucket>&quot;Aeropostale&quot;</bucket>
+              <bucket>&quot;Aesthetic Bodies&quot;</bucket>
+              <bucket>&quot;AESTHETIC NATION&quot;</bucket>
+              <bucket>&quot;AGIL ARMERO&quot;</bucket>
+              <bucket>&quot;AGIL ATHLETICA&quot;</bucket>
+              <bucket>&quot;AgrohA&quot;</bucket>
+              <bucket>&quot;Ahalyaa&quot;</bucket>
+              <bucket>&quot;ahhaaaa&quot;</bucket>
+              <bucket>&quot;AHIKA&quot;</bucket>
+              <bucket>&quot;Aj DEZInES&quot;</bucket>
+              <bucket>&quot;Ajile by Pantaloons&quot;</bucket>
+              <bucket>&quot;AkaAyu&quot;</bucket>
+              <bucket>&quot;akheri&quot;</bucket>
+              <bucket>&quot;AKIMIA&quot;</bucket>
+              <bucket>&quot;AKISO&quot;</bucket>
+              <bucket>&quot;AKKRITI BY PANTALOONS&quot;</bucket>
+              <bucket>&quot;Akshatani&quot;</bucket>
+              <bucket>&quot;Alan Jones&quot;</bucket>
+              <bucket>&quot;Alaya By Stage3&quot;</bucket>
+              <bucket>&quot;ALC Creations&quot;</bucket>
+              <bucket>&quot;Alcis&quot;</bucket>
+              <bucket>&quot;ALCOTT&quot;</bucket>
+              <bucket>&quot;Alena&quot;</bucket>
+              <bucket>&quot;aLL&quot;</bucket>
+              <bucket>&quot;all about you&quot;</bucket>
+              <bucket>&quot;Allen Cooper&quot;</bucket>
+              <bucket>&quot;Allen Solly&quot;</bucket>
+              <bucket>&quot;Allen Solly Sport&quot;</bucket>
+              <bucket>&quot;Allen Solly Tribe&quot;</bucket>
+              <bucket>&quot;Allen Solly Woman&quot;</bucket>
+              <bucket>&quot;Almo Wear&quot;</bucket>
+              <bucket>&quot;Alsace Lorraine Paris&quot;</bucket>
+              <bucket>&quot;Altiven&quot;</bucket>
+              <bucket>&quot;ALTOMODA by Pantaloons&quot;</bucket>
+              <bucket>&quot;Alvaro Castagnino&quot;</bucket>
+              <bucket>&quot;am ma&quot;</bucket>
+              <bucket>&quot;Amante&quot;</bucket>
+              <bucket>&quot;Ambraee&quot;</bucket>
+              <bucket>&quot;American Archer&quot;</bucket>
+              <bucket>&quot;American Bull&quot;</bucket>
+              <bucket>&quot;American Crew&quot;</bucket>
+              <bucket>&quot;American Crew Plus&quot;</bucket>
+              <bucket>&quot;AMERICAN EAGLE OUTFITTERS&quot;</bucket>
+              <bucket>&quot;American Eye&quot;</bucket>
+              <bucket>&quot;American Swan&quot;</bucket>
+              <bucket>&quot;American-Elm&quot;</bucket>
+              <bucket>&quot;Amirah s&quot;</bucket>
+              <bucket>&quot;AMIRAS INDIAN ETHNIC WEAR&quot;</bucket>
+              <bucket>&quot;AMMARZO&quot;</bucket>
+              <bucket>&quot;AMOSIO&quot;</bucket>
+              <bucket>&quot;Amrutam Fab&quot;</bucket>
+              <bucket>&quot;AMUKTI&quot;</bucket>
+              <bucket>&quot;Amydus&quot;</bucket>
+              <bucket>&quot;amzira&quot;</bucket>
+              <bucket>&quot;An Episode&quot;</bucket>
+              <bucket>&quot;Anaario&quot;</bucket>
+              <bucket>&quot;Anahi&quot;</bucket>
+              <bucket>&quot;ANAISA&quot;</bucket>
+              <bucket>&quot;Anaita&quot;</bucket>
+              <bucket>&quot;ANAN&quot;</bucket>
+              <bucket>&quot;anayna&quot;</bucket>
+              <bucket>&quot;Ancestry&quot;</bucket>
+              <bucket>&quot;AND&quot;</bucket>
+              <bucket>&quot;Anekaant&quot;</bucket>
+              <bucket>&quot;angloindu&quot;</bucket>
+              <bucket>&quot;ANI&quot;</bucket>
+              <bucket>&quot;ANIKAS CREATION&quot;</bucket>
+              <bucket>&quot;ANMI&quot;</bucket>
+              <bucket>&quot;Annabelle by Pantaloons&quot;</bucket>
+              <bucket>&quot;anokherang&quot;</bucket>
+              <bucket>&quot;Anoma&quot;</bucket>
+              <bucket>&quot;Anouk&quot;</bucket>
+              <bucket>&quot;Ansar Creation&quot;</bucket>
+              <bucket>&quot;antaran&quot;</bucket>
+              <bucket>&quot;Antheaa&quot;</bucket>
+              <bucket>&quot;ANTI CULTURE&quot;</bucket>
+              <bucket>&quot;Antony Morato&quot;</bucket>
+              <bucket>&quot;ANTS&quot;</bucket>
+              <bucket>&quot;Anubhutee&quot;</bucket>
+              <bucket>&quot;Anug by SOJANYA&quot;</bucket>
+              <bucket>&quot;ANVI Be Yourself&quot;</bucket>
+              <bucket>&quot;ANWAIND&quot;</bucket>
+              <bucket>&quot;Anysa&quot;</bucket>
+              <bucket>&quot;APCO&quot;</bucket>
+              <bucket>&quot;appulse&quot;</bucket>
+              <bucket>&quot;Apratim&quot;</bucket>
+              <bucket>&quot;Aprique FAB&quot;</bucket>
+              <bucket>&quot;APSLEY&quot;</bucket>
+              <bucket>&quot;Aptonia By Decathlon&quot;</bucket>
+              <bucket>&quot;araaliya&quot;</bucket>
+              <bucket>&quot;arangya&quot;</bucket>
+              <bucket>&quot;Arctic Fox&quot;</bucket>
+              <bucket>&quot;ARDEUR&quot;</bucket>
+              <bucket>&quot;Ardozaa&quot;</bucket>
+              <bucket>&quot;Arhi&quot;</bucket>
+              <bucket>&quot;ARISE&quot;</bucket>
+              <bucket>&quot;Armaan Ethnic&quot;</bucket>
+              <bucket>&quot;ARMISTO&quot;</bucket>
+              <bucket>&quot;armure&quot;</bucket>
+              <bucket>&quot;Arrabi&quot;</bucket>
+              <bucket>&quot;Arrow&quot;</bucket>
+              <bucket>&quot;Arrow Blue Jean Co.&quot;</bucket>
+              <bucket>&quot;Arrow New York&quot;</bucket>
+              <bucket>&quot;Arrow Sport&quot;</bucket>
+              <bucket>&quot;Arrow Woman&quot;</bucket>
+              <bucket>&quot;Arsenal FC&quot;</bucket>
+              <bucket>&quot;ArtEastri&quot;</bucket>
+              <bucket>&quot;Artengo By Decathlon&quot;</bucket>
+              <bucket>&quot;ArtiZenWeaves&quot;</bucket>
+              <bucket>&quot;Aryavart&quot;</bucket>
+              <bucket>&quot;Ashlee&quot;</bucket>
+              <bucket>&quot;Ashnaina&quot;</bucket>
+              <bucket>&quot;ASICS&quot;</bucket>
+              <bucket>&quot;ASICS Tiger&quot;</bucket>
+              <bucket>&quot;ASPORA&quot;</bucket>
+              <bucket>&quot;Athena&quot;</bucket>
+              <bucket>&quot;Athleto&quot;</bucket>
+              <bucket>&quot;ATHLISIS&quot;</bucket>
+              <bucket>&quot;ATRAENTA&quot;</bucket>
+              <bucket>&quot;Atsevam&quot;</bucket>
+              <bucket>&quot;ATTIC SALT&quot;</bucket>
+              <bucket>&quot;ATTIITUDE&quot;</bucket>
+              <bucket>&quot;AUDSTRO&quot;</bucket>
+              <bucket>&quot;Aujjessa&quot;</bucket>
+              <bucket>&quot;Aura&quot;</bucket>
+              <bucket>&quot;AURELIA&quot;</bucket>
+              <bucket>&quot;AUSTIEX&quot;</bucket>
+              <bucket>&quot;Austin wood&quot;</bucket>
+              <bucket>&quot;AUSTIVO&quot;</bucket>
+              <bucket>&quot;AV2&quot;</bucket>
+              <bucket>&quot;AVANT-GARDE PARIS&quot;</bucket>
+              <bucket>&quot;Aventura Outfitters&quot;</bucket>
+              <bucket>&quot;AVI Living&quot;</bucket>
+              <bucket>&quot;AVOLT&quot;</bucket>
+              <bucket>&quot;Awadhi&quot;</bucket>
+              <bucket>&quot;awesome&quot;</bucket>
+              <bucket>&quot;Ayaany&quot;</bucket>
+              <bucket>&quot;Ayaki&quot;</bucket>
+              <bucket>&quot;Ayesha&quot;</bucket>
+              <bucket>&quot;azania&quot;</bucket>
+              <bucket>&quot;Azira&quot;</bucket>
+              <bucket>&quot;Baawara By Bhama&quot;</bucket>
+              <bucket>&quot;Badoliya &amp; Sons&quot;</bucket>
+              <bucket>&quot;Balenzia&quot;</bucket>
+              <bucket>&quot;Balista&quot;</bucket>
+              <bucket>&quot;BAMBOS&quot;</bucket>
+              <bucket>&quot;BANARASI SILK WORKS&quot;</bucket>
+              <bucket>&quot;Banarasi Style&quot;</bucket>
+              <bucket>&quot;Bangalore Silk Emporium&quot;</bucket>
+              <bucket>&quot;Bani Women&quot;</bucket>
+              <bucket>&quot;Bannos Swagger&quot;</bucket>
+              <bucket>&quot;BARARA ETHNIC&quot;</bucket>
+              <bucket>&quot;Bareblow&quot;</bucket>
+              <bucket>&quot;Basics&quot;</bucket>
+              <bucket>&quot;BASIICS by La Intimo&quot;</bucket>
+              <bucket>&quot;Bavaria&quot;</bucket>
+              <bucket>&quot;BE AWARA&quot;</bucket>
+              <bucket>&quot;Be Indi&quot;</bucket>
+              <bucket>&quot;BEAT LONDON by PEPE JEANS&quot;</bucket>
+              <bucket>&quot;BEATITUDE&quot;</bucket>
+              <bucket>&quot;Beau Design&quot;</bucket>
+              <bucket>&quot;BEAVER&quot;</bucket>
+              <bucket>&quot;bebe&quot;</bucket>
+              <bucket>&quot;bedgasm&quot;</bucket>
+              <bucket>&quot;beebelle&quot;</bucket>
+              <bucket>&quot;beevee&quot;</bucket>
+              <bucket>&quot;Being Fab&quot;</bucket>
+              <bucket>&quot;Being Human&quot;</bucket>
+              <bucket>&quot;Bell Paper&quot;</bucket>
+              <bucket>&quot;bellamia&quot;</bucket>
+              <bucket>&quot;Belle Fille&quot;</bucket>
+              <bucket>&quot;Belliskey&quot;</bucket>
+              <bucket>&quot;Bellofox&quot;</bucket>
+              <bucket>&quot;BEN SHERMAN&quot;</bucket>
+              <bucket>&quot;Bene Kleed&quot;</bucket>
+              <bucket>&quot;Bene Kleed Plus&quot;</bucket>
+              <bucket>&quot;Benstoke&quot;</bucket>
+              <bucket>&quot;berry blues&quot;</bucket>
+              <bucket>&quot;Berrylush&quot;</bucket>
+              <bucket>&quot;Berrys Intimatess&quot;</bucket>
+              <bucket>&quot;berrytree&quot;</bucket>
+              <bucket>&quot;Besiva&quot;</bucket>
+              <bucket>&quot;BEVERLY BLUES&quot;</bucket>
+              <bucket>&quot;Beverly Hills Polo Club&quot;</bucket>
+              <bucket>&quot;Bewakoof&quot;</bucket>
+              <bucket>&quot;Bewakoof Plus&quot;</bucket>
+              <bucket>&quot;BEYOUND SIZE - THE DRY STATE&quot;</bucket>
+              <bucket>&quot;Bhama Couture&quot;</bucket>
+              <bucket>&quot;Bharatasya&quot;</bucket>
+              <bucket>&quot;BharatSthali&quot;</bucket>
+              <bucket>&quot;Biba&quot;</bucket>
+              <bucket>&quot;Big Fox&quot;</bucket>
+              <bucket>&quot;bigbanana&quot;</bucket>
+              <bucket>&quot;Binnis Wardrobe&quot;</bucket>
+              <bucket>&quot;Bishop Cotton&quot;</bucket>
+              <bucket>&quot;Biswa Bangla&quot;</bucket>
+              <bucket>&quot;Bitterlime&quot;</bucket>
+              <bucket>&quot;Bitz&quot;</bucket>
+              <bucket>&quot;Black coffee&quot;</bucket>
+              <bucket>&quot;Black Panther&quot;</bucket>
+              <bucket>&quot;BLACK RADIO&quot;</bucket>
+              <bucket>&quot;Blackberrys&quot;</bucket>
+              <bucket>&quot;Blacksmith&quot;</bucket>
+              <bucket>&quot;BLANC9&quot;</bucket>
+              <bucket>&quot;Blazer Quarter&quot;</bucket>
+              <bucket>&quot;Blinkin&quot;</bucket>
+              <bucket>&quot;BlissClub&quot;</bucket>
+              <bucket>&quot;Blissta&quot;</bucket>
+              <bucket>&quot;BLITZSOX&quot;</bucket>
+              <bucket>&quot;blue hour&quot;</bucket>
+              <bucket>&quot;Blue Saint&quot;</bucket>
+              <bucket>&quot;Blush 9 Maternity&quot;</bucket>
+              <bucket>&quot;Blush by PrettySecrets&quot;</bucket>
+              <bucket>&quot;BODYACTIVE&quot;</bucket>
+              <bucket>&quot;Bodycare&quot;</bucket>
+              <bucket>&quot;BODYCARE INSIDER&quot;</bucket>
+              <bucket>&quot;BODYX&quot;</bucket>
+              <bucket>&quot;BOLDFIT&quot;</bucket>
+              <bucket>&quot;BOMBAY SELECTIONS&quot;</bucket>
+              <bucket>&quot;Bonjour&quot;</bucket>
+              <bucket>&quot;BonOrganik&quot;</bucket>
+              <bucket>&quot;Boohoo&quot;</bucket>
+              <bucket>&quot;Bossini&quot;</bucket>
+              <bucket>&quot;Boston Club&quot;</bucket>
+              <bucket>&quot;BoStreet&quot;</bucket>
+              <bucket>&quot;BOWER&quot;</bucket>
+              <bucket>&quot;BRACHY&quot;</bucket>
+              <bucket>&quot;BRACLO&quot;</bucket>
+              <bucket>&quot;BRAG&quot;</bucket>
+              <bucket>&quot;Bralux&quot;</bucket>
+              <bucket>&quot;BRATMA&quot;</bucket>
+              <bucket>&quot;Braveo&quot;</bucket>
+              <bucket>&quot;Breakbounce&quot;</bucket>
+              <bucket>&quot;BREIL BY FORT COLLINS&quot;</bucket>
+              <bucket>&quot;BRINNS&quot;</bucket>
+              <bucket>&quot;British Club&quot;</bucket>
+              <bucket>&quot;BROADSTAR&quot;</bucket>
+              <bucket>&quot;Bronz&quot;</bucket>
+              <bucket>&quot;BROOWL&quot;</bucket>
+              <bucket>&quot;Bruchi CLUB&quot;</bucket>
+              <bucket>&quot;Bruun &amp; Stengade&quot;</bucket>
+              <bucket>&quot;BStories&quot;</bucket>
+              <bucket>&quot;Btwin By Decathlon&quot;</bucket>
+              <bucket>&quot;BUCIK&quot;</bucket>
+              <bucket>&quot;BuckleUp&quot;</bucket>
+              <bucket>&quot;BUKKUM&quot;</bucket>
+              <bucket>&quot;BULLMER&quot;</bucket>
+              <bucket>&quot;bummer&quot;</bucket>
+              <bucket>&quot;Bunnywave&quot;</bucket>
+              <bucket>&quot;Burnt Umber&quot;</bucket>
+              <bucket>&quot;Bushirt&quot;</bucket>
+              <bucket>&quot;Butt-Chique&quot;</bucket>
+              <bucket>&quot;BUY NEW TREND&quot;</bucket>
+              <bucket>&quot;Bwitch&quot;</bucket>
+              <bucket>&quot;BYFORD by Pantaloons&quot;</bucket>
+              <bucket>&quot;C9&quot;</bucket>
+              <bucket>&quot;C9 AIRWEAR&quot;</bucket>
+              <bucket>&quot;Callino London&quot;</bucket>
+              <bucket>&quot;Calvin Klein Innerwear&quot;</bucket>
+              <bucket>&quot;Calvin Klein Jeans&quot;</bucket>
+              <bucket>&quot;Calvin Klein Underwear&quot;</bucket>
+              <bucket>&quot;Camey&quot;</bucket>
+              <bucket>&quot;CAMLA&quot;</bucket>
+              <bucket>&quot;Campus&quot;</bucket>
+              <bucket>&quot;Campus Sutra&quot;</bucket>
+              <bucket>&quot;Canary London&quot;</bucket>
+              <bucket>&quot;Candour London&quot;</bucket>
+              <bucket>&quot;Candyskin&quot;</bucket>
+              <bucket>&quot;CANOE&quot;</bucket>
+              <bucket>&quot;Cantabil&quot;</bucket>
+              <bucket>&quot;Canterbury&quot;</bucket>
+              <bucket>&quot;cape canary&quot;</bucket>
+              <bucket>&quot;Carlton London&quot;</bucket>
+              <bucket>&quot;Cartoon Network by Dressberry&quot;</bucket>
+              <bucket>&quot;CASA DE NEE NEE&quot;</bucket>
+              <bucket>&quot;Castle&quot;</bucket>
+              <bucket>&quot;Castle Lifestyle&quot;</bucket>
+              <bucket>&quot;CATCHY&quot;</bucket>
+              <bucket>&quot;Cation&quot;</bucket>
+              <bucket>&quot;Catnap&quot;</bucket>
+              <bucket>&quot;CAVALLO by Linen Club&quot;</bucket>
+              <bucket>&quot;Cayman&quot;</bucket>
+              <bucket>&quot;Celio&quot;</bucket>
+              <bucket>&quot;Centra&quot;</bucket>
+              <bucket>&quot;CENWELL&quot;</bucket>
+              <bucket>&quot;Champion&quot;</bucket>
+              <bucket>&quot;Charak&quot;</bucket>
+              <bucket>&quot;CHARISMOMIC&quot;</bucket>
+              <bucket>&quot;Charitra&quot;</bucket>
+              <bucket>&quot;CHARMGAL&quot;</bucket>
+              <bucket>&quot;Charu&quot;</bucket>
+              <bucket>&quot;Charukriti&quot;</bucket>
+              <bucket>&quot;Chemistry&quot;</bucket>
+              <bucket>&quot;Chemistry Edition&quot;</bucket>
+              <bucket>&quot;Chennis&quot;</bucket>
+              <bucket>&quot;Cherokee&quot;</bucket>
+              <bucket>&quot;Chhabra 555&quot;</bucket>
+              <bucket>&quot;Chicco&quot;</bucket>
+              <bucket>&quot;CHICQUITA&quot;</bucket>
+              <bucket>&quot;Chidiyaa&quot;</bucket>
+              <bucket>&quot;CHILL WINSTON&quot;</bucket>
+              <bucket>&quot;CHIMPAAANZEE&quot;</bucket>
+              <bucket>&quot;Chipbeys&quot;</bucket>
+              <bucket>&quot;Chitwan Mohan&quot;</bucket>
+              <bucket>&quot;Chkokko&quot;</bucket>
+              <bucket>&quot;Chokhi Bandhani&quot;</bucket>
+              <bucket>&quot;CHOWDHRAIN&quot;</bucket>
+              <bucket>&quot;CHOZI&quot;</bucket>
+              <bucket>&quot;CHRISTEENA&quot;</bucket>
+              <bucket>&quot;CHROME &amp; CORAL&quot;</bucket>
+              <bucket>&quot;Chromozome&quot;</bucket>
+              <bucket>&quot;Chumbak&quot;</bucket>
+              <bucket>&quot;CIERGE&quot;</bucket>
+              <bucket>&quot;CINNAMON CLOSET&quot;</bucket>
+              <bucket>&quot;CINOCCI&quot;</bucket>
+              <bucket>&quot;CKM&quot;</bucket>
+              <bucket>&quot;CL SPORT&quot;</bucket>
+              <bucket>&quot;CLAI WORLD&quot;</bucket>
+              <bucket>&quot;Classic Polo&quot;</bucket>
+              <bucket>&quot;Claura&quot;</bucket>
+              <bucket>&quot;Cloak &amp; Decker&quot;</bucket>
+              <bucket>&quot;Cloak &amp; Decker by Monte Carlo&quot;</bucket>
+              <bucket>&quot;Clora Creation&quot;</bucket>
+              <bucket>&quot;clorals&quot;</bucket>
+              <bucket>&quot;CLOSETHOOK&quot;</bucket>
+              <bucket>&quot;Cloth Haus India&quot;</bucket>
+              <bucket>&quot;Clovia&quot;</bucket>
+              <bucket>&quot;Clt.s&quot;</bucket>
+              <bucket>&quot;Club York&quot;</bucket>
+              <bucket>&quot;COBB&quot;</bucket>
+              <bucket>&quot;Code 61&quot;</bucket>
+              <bucket>&quot;CODE by Lifestyle&quot;</bucket>
+              <bucket>&quot;College Girl&quot;</bucket>
+              <bucket>&quot;Color Cocktail&quot;</bucket>
+              <bucket>&quot;ColorPlus&quot;</bucket>
+              <bucket>&quot;Colors&quot;</bucket>
+              <bucket>&quot;Colour Me by Melange&quot;</bucket>
+              <bucket>&quot;Colt&quot;</bucket>
+              <bucket>&quot;Columbia&quot;</bucket>
+              <bucket>&quot;COLVYNHARRIS JEANS&quot;</bucket>
+              <bucket>&quot;Conditions Apply&quot;</bucket>
+              <bucket>&quot;Converse&quot;</bucket>
+              <bucket>&quot;Copperline&quot;</bucket>
+              <bucket>&quot;Cosmo Lady&quot;</bucket>
+              <bucket>&quot;Cot&apos;N Soft&quot;</bucket>
+              <bucket>&quot;COTCLO&quot;</bucket>
+              <bucket>&quot;Cottinfab&quot;</bucket>
+              <bucket>&quot;COTTON ON&quot;</bucket>
+              <bucket>&quot;Cottonworld&quot;</bucket>
+              <bucket>&quot;Coucou&quot;</bucket>
+              <bucket>&quot;Coucou by Zivame&quot;</bucket>
+              <bucket>&quot;COUPER &amp; COLL&quot;</bucket>
+              <bucket>&quot;COVER STORY&quot;</bucket>
+              <bucket>&quot;CRAFIQA&quot;</bucket>
+              <bucket>&quot;Creature&quot;</bucket>
+              <bucket>&quot;Creeva&quot;</bucket>
+              <bucket>&quot;CREEZ&quot;</bucket>
+              <bucket>&quot;Crimsoune Club&quot;</bucket>
+              <bucket>&quot;Crocodile&quot;</bucket>
+              <bucket>&quot;Cross Court&quot;</bucket>
+              <bucket>&quot;CROYDON&quot;</bucket>
+              <bucket>&quot;Crozo By Cantabil&quot;</bucket>
+              <bucket>&quot;CRUSSET&quot;</bucket>
+              <bucket>&quot;CUKOO&quot;</bucket>
+              <bucket>&quot;CULT FICTION&quot;</bucket>
+              <bucket>&quot;Cultsport&quot;</bucket>
+              <bucket>&quot;Curare&quot;</bucket>
+              <bucket>&quot;curveZI by Ziyaa&quot;</bucket>
+              <bucket>&quot;Curvy Love&quot;</bucket>
+              <bucket>&quot;CURWISH&quot;</bucket>
+              <bucket>&quot;CUSHYBEE&quot;</bucket>
+              <bucket>&quot;D Kumar&quot;</bucket>
+              <bucket>&quot;Da Intimo&quot;</bucket>
+              <bucket>&quot;DAEVISH&quot;</bucket>
+              <bucket>&quot;Dais&quot;</bucket>
+              <bucket>&quot;DAiSY&quot;</bucket>
+              <bucket>&quot;DAMENSCH&quot;</bucket>
+              <bucket>&quot;DART STUDIO&quot;</bucket>
+              <bucket>&quot;Darzi&quot;</bucket>
+              <bucket>&quot;Dazzle&quot;</bucket>
+              <bucket>&quot;DC by Kook N Keech&quot;</bucket>
+              <bucket>&quot;DC Comics&quot;</bucket>
+              <bucket>&quot;De Moza&quot;</bucket>
+              <bucket>&quot;Deal Jeans&quot;</bucket>
+              <bucket>&quot;DEALSEVEN FASHION&quot;</bucket>
+              <bucket>&quot;DECHEN&quot;</bucket>
+              <bucket>&quot;DECKEDUP&quot;</bucket>
+              <bucket>&quot;DECOREALM&quot;</bucket>
+              <bucket>&quot;DEEBACO&quot;</bucket>
+              <bucket>&quot;Deewa&quot;</bucket>
+              <bucket>&quot;DeFacto&quot;</bucket>
+              <bucket>&quot;DEGE&quot;</bucket>
+              <bucket>&quot;DELAN&quot;</bucket>
+              <bucket>&quot;Denap&quot;</bucket>
+              <bucket>&quot;Denimize by Fame Forever&quot;</bucket>
+              <bucket>&quot;Denizen From Levis&quot;</bucket>
+              <bucket>&quot;Dennis Lingo&quot;</bucket>
+              <bucket>&quot;Dennis Morton&quot;</bucket>
+              <bucket>&quot;DENNISON&quot;</bucket>
+              <bucket>&quot;Dermawear&quot;</bucket>
+              <bucket>&quot;DESI BEATS&quot;</bucket>
+              <bucket>&quot;Desi Weavess&quot;</bucket>
+              <bucket>&quot;DESI WOMANIYA&quot;</bucket>
+              <bucket>&quot;DesiNoor.com&quot;</bucket>
+              <bucket>&quot;DEVOILER&quot;</bucket>
+              <bucket>&quot;Dexter by Kook N Keech&quot;</bucket>
+              <bucket>&quot;DEYANN&quot;</bucket>
+              <bucket>&quot;DEYANN PLUS&quot;</bucket>
+              <bucket>&quot;Difference of Opinion&quot;</bucket>
+              <bucket>&quot;DILLINGER&quot;</bucket>
+              <bucket>&quot;Dipsha&quot;</bucket>
+              <bucket>&quot;Disney by DressBerry&quot;</bucket>
+              <bucket>&quot;Disney by Wear Your Mind&quot;</bucket>
+              <bucket>&quot;Disrupt&quot;</bucket>
+              <bucket>&quot;DIVA WALK EXCLUSIVE&quot;</bucket>
+              <bucket>&quot;DIVASTRI&quot;</bucket>
+              <bucket>&quot;Divena&quot;</bucket>
+              <bucket>&quot;DIVINATION&quot;</bucket>
+              <bucket>&quot;DIVYANK&quot;</bucket>
+              <bucket>&quot;Diwaah&quot;</bucket>
+              <bucket>&quot;DIXCY SCOTT&quot;</bucket>
+              <bucket>&quot;DIXCY SCOTT MAXIMUS&quot;</bucket>
+              <bucket>&quot;DIXCY SCOTT Slimz&quot;</bucket>
+              <bucket>&quot;DKGF FASHION&quot;</bucket>
+              <bucket>&quot;DKNY&quot;</bucket>
+              <bucket>&quot;Do Dhaage&quot;</bucket>
+              <bucket>&quot;DODO &amp; MOA&quot;</bucket>
+              <bucket>&quot;DOLCE CRUDO&quot;</bucket>
+              <bucket>&quot;Dollar&quot;</bucket>
+              <bucket>&quot;Dollar Bigboss&quot;</bucket>
+              <bucket>&quot;Dollar Missy&quot;</bucket>
+              <bucket>&quot;Dollar Socks&quot;</bucket>
+              <bucket>&quot;Dollar Ultra&quot;</bucket>
+              <bucket>&quot;Domyos By Decathlon&quot;</bucket>
+              <bucket>&quot;DON VINO&quot;</bucket>
+              <bucket>&quot;Donald Duck&quot;</bucket>
+              <bucket>&quot;Donzell&quot;</bucket>
+              <bucket>&quot;Doodlage&quot;</bucket>
+              <bucket>&quot;DOOR74&quot;</bucket>
+              <bucket>&quot;DORIYA&quot;</bucket>
+              <bucket>&quot;DOROTHY PERKINS&quot;</bucket>
+              <bucket>&quot;Double Two&quot;</bucket>
+              <bucket>&quot;DRAAX Fashions&quot;</bucket>
+              <bucket>&quot;DRAPE IN VOGUE&quot;</bucket>
+              <bucket>&quot;Dream of Glory Inc&quot;</bucket>
+              <bucket>&quot;DREAMSS BY SHILPA SHETTY&quot;</bucket>
+              <bucket>&quot;Dreamz by Pantaloons&quot;</bucket>
+              <bucket>&quot;DressBerry&quot;</bucket>
+              <bucket>&quot;DRESSTIVE&quot;</bucket>
+              <bucket>&quot;DS WORLD&quot;</bucket>
+              <bucket>&quot;Ducati&quot;</bucket>
+              <bucket>&quot;Duchess&quot;</bucket>
+              <bucket>&quot;DUDITI&quot;</bucket>
+              <bucket>&quot;DUGRI BE THE ONE&quot;</bucket>
+              <bucket>&quot;Duke&quot;</bucket>
+              <bucket>&quot;Dupatta Bazaar&quot;</bucket>
+              <bucket>&quot;DURVI&quot;</bucket>
+              <bucket>&quot;DYCA&quot;</bucket>
+              <bucket>&quot;Dynamocks&quot;</bucket>
+              <bucket>&quot;Earthen BY INDYA&quot;</bucket>
+              <bucket>&quot;East Ink&quot;</bucket>
+              <bucket>&quot;Eavan&quot;</bucket>
+              <bucket>&quot;Ecentric&quot;</bucket>
+              <bucket>&quot;echt&quot;</bucket>
+              <bucket>&quot;Ed Hardy&quot;</bucket>
+              <bucket>&quot;EDRIO&quot;</bucket>
+              <bucket>&quot;effy&quot;</bucket>
+              <bucket>&quot;Efulgenz&quot;</bucket>
+              <bucket>&quot;Ekmatra&quot;</bucket>
+              <bucket>&quot;Ekta Textiles&quot;</bucket>
+              <bucket>&quot;EL REGALO&quot;</bucket>
+              <bucket>&quot;ELABORADO&quot;</bucket>
+              <bucket>&quot;ELEGANCE&quot;</bucket>
+              <bucket>&quot;ELEVANTO&quot;</bucket>
+              <bucket>&quot;ELEVEN.O.ONE&quot;</bucket>
+              <bucket>&quot;ELLE&quot;</bucket>
+              <bucket>&quot;elleven&quot;</bucket>
+              <bucket>&quot;Emerals&quot;</bucket>
+              <bucket>&quot;emeros&quot;</bucket>
+              <bucket>&quot;Emmyrobe&quot;</bucket>
+              <bucket>&quot;Emprall&quot;</bucket>
+              <bucket>&quot;Enamor&quot;</bucket>
+              <bucket>&quot;Enchanted Drapes&quot;</bucket>
+              <bucket>&quot;Enciger&quot;</bucket>
+              <bucket>&quot;Encrypt&quot;</bucket>
+              <bucket>&quot;English Navy&quot;</bucket>
+              <bucket>&quot;Ennoble&quot;</bucket>
+              <bucket>&quot;Enviously Young&quot;</bucket>
+              <bucket>&quot;EPPE&quot;</bucket>
+              <bucket>&quot;ERISHA&quot;</bucket>
+              <bucket>&quot;EROTISSCH&quot;</bucket>
+              <bucket>&quot;ESME&quot;</bucket>
+              <bucket>&quot;Espresso&quot;</bucket>
+              <bucket>&quot;ESPRIT&quot;</bucket>
+              <bucket>&quot;ETC&quot;</bucket>
+              <bucket>&quot;ether&quot;</bucket>
+              <bucket>&quot;Ethnic basket&quot;</bucket>
+              <bucket>&quot;Ethnic Junction&quot;</bucket>
+              <bucket>&quot;ETHNIC STREET&quot;</bucket>
+              <bucket>&quot;Ethnicity&quot;</bucket>
+              <bucket>&quot;ethnix&quot;</bucket>
+              <bucket>&quot;Ethnix by Raymond&quot;</bucket>
+              <bucket>&quot;EthnoVogue&quot;</bucket>
+              <bucket>&quot;ETIQUETTE&quot;</bucket>
+              <bucket>&quot;EVADICT By Decathlon&quot;</bucket>
+              <bucket>&quot;EVAH LONDON&quot;</bucket>
+              <bucket>&quot;even&quot;</bucket>
+              <bucket>&quot;Ever Loved&quot;</bucket>
+              <bucket>&quot;EVERBLUE&quot;</bucket>
+              <bucket>&quot;EVERDION&quot;</bucket>
+              <bucket>&quot;every de by amante&quot;</bucket>
+              <bucket>&quot;evolove&quot;</bucket>
+              <bucket>&quot;EVOQ&quot;</bucket>
+              <bucket>&quot;ewoke&quot;</bucket>
+              <bucket>&quot;Excalibur&quot;</bucket>
+              <bucket>&quot;Exclusiva&quot;</bucket>
+              <bucket>&quot;EXTRA LOVE BY LIBAS&quot;</bucket>
+              <bucket>&quot;EZIS FASHION&quot;</bucket>
+              <bucket>&quot;F.R.I.E.N.D.S By Sztori&quot;</bucket>
+              <bucket>&quot;Fab Dadu&quot;</bucket>
+              <bucket>&quot;Fab Star&quot;</bucket>
+              <bucket>&quot;FabAlley&quot;</bucket>
+              <bucket>&quot;FabAlley Curve&quot;</bucket>
+              <bucket>&quot;Fabclub&quot;</bucket>
+              <bucket>&quot;fabGLOBAL&quot;</bucket>
+              <bucket>&quot;Fabindia&quot;</bucket>
+              <bucket>&quot;FABISTA&quot;</bucket>
+              <bucket>&quot;FableStreet&quot;</bucket>
+              <bucket>&quot;FABNEST&quot;</bucket>
+              <bucket>&quot;Fabnest Curve&quot;</bucket>
+              <bucket>&quot;FABRIC FITOOR&quot;</bucket>
+              <bucket>&quot;Fabriko&quot;</bucket>
+              <bucket>&quot;FabSeasons&quot;</bucket>
+              <bucket>&quot;Fame Forever by Lifestyle&quot;</bucket>
+              <bucket>&quot;Fasense&quot;</bucket>
+              <bucket>&quot;Faserz&quot;</bucket>
+              <bucket>&quot;fashiol&quot;</bucket>
+              <bucket>&quot;Fashion Basket&quot;</bucket>
+              <bucket>&quot;Fashion Booms&quot;</bucket>
+              <bucket>&quot;Fashion Cult&quot;</bucket>
+              <bucket>&quot;FASHION DEPTH&quot;</bucket>
+              <bucket>&quot;FASHION DWAR&quot;</bucket>
+              <bucket>&quot;Fashion FRICKS&quot;</bucket>
+              <bucket>&quot;FashionRack&quot;</bucket>
+              <bucket>&quot;Fashionuma&quot;</bucket>
+              <bucket>&quot;FASHOR&quot;</bucket>
+              <bucket>&quot;FAVOROSKI&quot;</bucket>
+              <bucket>&quot;FAWOMENT&quot;</bucket>
+              <bucket>&quot;Fbella&quot;</bucket>
+              <bucket>&quot;FC Barcelona&quot;</bucket>
+              <bucket>&quot;FCK-3&quot;</bucket>
+              <bucket>&quot;FCUK&quot;</bucket>
+              <bucket>&quot;FCUK Underwear&quot;</bucket>
+              <bucket>&quot;Feather Soft Elite&quot;</bucket>
+              <bucket>&quot;FEMEA&quot;</bucket>
+              <bucket>&quot;Femella&quot;</bucket>
+              <bucket>&quot;Femme Luxe&quot;</bucket>
+              <bucket>&quot;FEMMIBELLA&quot;</bucket>
+              <bucket>&quot;Femmora&quot;</bucket>
+              <bucket>&quot;Fentacia&quot;</bucket>
+              <bucket>&quot;FERANOID&quot;</bucket>
+              <bucket>&quot;FEVER&quot;</bucket>
+              <bucket>&quot;FFLIRTYGO&quot;</bucket>
+              <bucket>&quot;Fibre World&quot;</bucket>
+              <bucket>&quot;FIDO DIDO&quot;</bucket>
+              <bucket>&quot;FIFA U-17 WC&quot;</bucket>
+              <bucket>&quot;FILA&quot;</bucket>
+              <bucket>&quot;FINE WEAR&quot;</bucket>
+              <bucket>&quot;FINNOY&quot;</bucket>
+              <bucket>&quot;FINSBURY LONDON&quot;</bucket>
+              <bucket>&quot;Firangi Yarn&quot;</bucket>
+              <bucket>&quot;FIROZA&quot;</bucket>
+              <bucket>&quot;FirstKrush&quot;</bucket>
+              <bucket>&quot;FITINC&quot;</bucket>
+              <bucket>&quot;Fitkin&quot;</bucket>
+              <bucket>&quot;FITLEASURE&quot;</bucket>
+              <bucket>&quot;FITUP LIFE&quot;</bucket>
+              <bucket>&quot;FiTZ&quot;</bucket>
+              <bucket>&quot;flaher&quot;</bucket>
+              <bucket>&quot;Flambeur&quot;</bucket>
+              <bucket>&quot;FLAMBOYANT&quot;</bucket>
+              <bucket>&quot;FLAVIDO&quot;</bucket>
+              <bucket>&quot;FLAWLESS&quot;</bucket>
+              <bucket>&quot;Fleurt&quot;</bucket>
+              <bucket>&quot;Fleximaa&quot;</bucket>
+              <bucket>&quot;Florence&quot;</bucket>
+              <bucket>&quot;Floret&quot;</bucket>
+              <bucket>&quot;Fluffalump&quot;</bucket>
+              <bucket>&quot;FLX By Decathlon&quot;</bucket>
+              <bucket>&quot;Flying Machine&quot;</bucket>
+              <bucket>&quot;FOGA&quot;</bucket>
+              <bucket>&quot;Forca&quot;</bucket>
+              <bucket>&quot;Forca by Lifestyle&quot;</bucket>
+              <bucket>&quot;Force NXT&quot;</bucket>
+              <bucket>&quot;FORCLAZ By Decathlon&quot;</bucket>
+              <bucket>&quot;Foreign Culture By Fort Collins&quot;</bucket>
+              <bucket>&quot;FOREVER 21&quot;</bucket>
+              <bucket>&quot;Forever Glam by Pantaloons&quot;</bucket>
+              <bucket>&quot;Forever New&quot;</bucket>
+              <bucket>&quot;Fort Collins&quot;</bucket>
+              <bucket>&quot;FOSH&quot;</bucket>
+              <bucket>&quot;FOUGANZA By Decathlon&quot;</bucket>
+              <bucket>&quot;Four One Oh&quot;</bucket>
+              <bucket>&quot;Fox&quot;</bucket>
+              <bucket>&quot;Franco Leone&quot;</bucket>
+              <bucket>&quot;FREAKINS&quot;</bucket>
+              <bucket>&quot;Free Authority&quot;</bucket>
+              <bucket>&quot;FREECULTR&quot;</bucket>
+              <bucket>&quot;Freehand&quot;</bucket>
+              <bucket>&quot;FREESOUL&quot;</bucket>
+              <bucket>&quot;French Connection&quot;</bucket>
+              <bucket>&quot;FRENCH FLEXIOUS&quot;</bucket>
+              <bucket>&quot;FRESH FEET&quot;</bucket>
+              <bucket>&quot;FRIENDS by DressBerry&quot;</bucket>
+              <bucket>&quot;Friskers&quot;</bucket>
+              <bucket>&quot;Fruit of the loom&quot;</bucket>
+              <bucket>&quot;FUAARK&quot;</bucket>
+              <bucket>&quot;FUGAZEE&quot;</bucket>
+              <bucket>&quot;Fully Filmy&quot;</bucket>
+              <bucket>&quot;FURO by Red Chief&quot;</bucket>
+              <bucket>&quot;FurryFlair&quot;</bucket>
+              <bucket>&quot;Fusion Beats&quot;</bucket>
+              <bucket>&quot;Fusion Threads&quot;</bucket>
+              <bucket>&quot;Gallus&quot;</bucket>
+              <bucket>&quot;GALYPSO&quot;</bucket>
+              <bucket>&quot;GANT&quot;</bucket>
+              <bucket>&quot;GAS&quot;</bucket>
+              <bucket>&quot;Genius18&quot;</bucket>
+              <bucket>&quot;Genx&quot;</bucket>
+              <bucket>&quot;Geonaute By Decathlon&quot;</bucket>
+              <bucket>&quot;Geroo Jaipur&quot;</bucket>
+              <bucket>&quot;GERUA&quot;</bucket>
+              <bucket>&quot;GESPO&quot;</bucket>
+              <bucket>&quot;Get Glamr&quot;</bucket>
+              <bucket>&quot;Get Wrapped&quot;</bucket>
+              <bucket>&quot;GILLORI&quot;</bucket>
+              <bucket>&quot;Ginger by Lifestyle&quot;</bucket>
+              <bucket>&quot;Ginni Arora Label&quot;</bucket>
+              <bucket>&quot;GIORDANO&quot;</bucket>
+              <bucket>&quot;Gipsy&quot;</bucket>
+              <bucket>&quot;GLAM ROOTS&quot;</bucket>
+              <bucket>&quot;GLAMAZE&quot;</bucket>
+              <bucket>&quot;Glemora&quot;</bucket>
+              <bucket>&quot;Global Desi&quot;</bucket>
+              <bucket>&quot;Globon Impex&quot;</bucket>
+              <bucket>&quot;Globus&quot;</bucket>
+              <bucket>&quot;Glorious&quot;</bucket>
+              <bucket>&quot;Go Colors&quot;</bucket>
+              <bucket>&quot;GOLDSTROMS&quot;</bucket>
+              <bucket>&quot;GoSriKi&quot;</bucket>
+              <bucket>&quot;GoStyle&quot;</bucket>
+              <bucket>&quot;GRACE &amp; JACK&quot;</bucket>
+              <bucket>&quot;GRACIT&quot;</bucket>
+              <bucket>&quot;Grancy&quot;</bucket>
+              <bucket>&quot;GRASS by Gitika Goyal&quot;</bucket>
+              <bucket>&quot;GRECIILOOKS&quot;</bucket>
+              <bucket>&quot;Greenfibre&quot;</bucket>
+              <bucket>&quot;GRIFFEL&quot;</bucket>
+              <bucket>&quot;GRIIHAM&quot;</bucket>
+              <bucket>&quot;GRITSTONES&quot;</bucket>
+              <bucket>&quot;GROVERSONS Paris Beauty&quot;</bucket>
+              <bucket>&quot;GUESS&quot;</bucket>
+              <bucket>&quot;GullyActive&quot;</bucket>
+              <bucket>&quot;GULMOHAR JAIPUR&quot;</bucket>
+              <bucket>&quot;Guniaa&quot;</bucket>
+              <bucket>&quot;GUNVANTI FAB&quot;</bucket>
+              <bucket>&quot;gvs shoppe&quot;</bucket>
+              <bucket>&quot;H&amp;M&quot;</bucket>
+              <bucket>&quot;Hancock&quot;</bucket>
+              <bucket>&quot;HANDME&quot;</bucket>
+              <bucket>&quot;Hangup&quot;</bucket>
+              <bucket>&quot;hangup plus&quot;</bucket>
+              <bucket>&quot;hangup trend&quot;</bucket>
+              <bucket>&quot;Happy Socks&quot;</bucket>
+              <bucket>&quot;HAPSELL&quot;</bucket>
+              <bucket>&quot;Hapuka&quot;</bucket>
+              <bucket>&quot;HARBORNBAY&quot;</bucket>
+              <bucket>&quot;Harpa&quot;</bucket>
+              <bucket>&quot;Harry Potter By Sztori&quot;</bucket>
+              <bucket>&quot;HARSAM&quot;</bucket>
+              <bucket>&quot;Harvard&quot;</bucket>
+              <bucket>&quot;Hastakala&quot;</bucket>
+              <bucket>&quot;Hatheli&quot;</bucket>
+              <bucket>&quot;Havida Sarees&quot;</bucket>
+              <bucket>&quot;HAVVA FASHION&quot;</bucket>
+              <bucket>&quot;Head&quot;</bucket>
+              <bucket>&quot;Heelium&quot;</bucket>
+              <bucket>&quot;heemara&quot;</bucket>
+              <bucket>&quot;HELLO DESIGN&quot;</bucket>
+              <bucket>&quot;her by invictus&quot;</bucket>
+              <bucket>&quot;Her Grace&quot;</bucket>
+              <bucket>&quot;HERE&amp;NOW&quot;</bucket>
+              <bucket>&quot;Herryqeal&quot;</bucket>
+              <bucket>&quot;hexafun&quot;</bucket>
+              <bucket>&quot;High Star&quot;</bucket>
+              <bucket>&quot;HIGHLANDER&quot;</bucket>
+              <bucket>&quot;HIGHLIGHT FASHION EXPORT&quot;</bucket>
+              <bucket>&quot;HILL STREET&quot;</bucket>
+              <bucket>&quot;HK colours of fashion&quot;</bucket>
+              <bucket>&quot;HOB&quot;</bucket>
+              <bucket>&quot;HOLDIT&quot;</bucket>
+              <bucket>&quot;Home Centre&quot;</bucket>
+              <bucket>&quot;Honey by Pantaloons&quot;</bucket>
+              <bucket>&quot;Horsefly&quot;</bucket>
+              <bucket>&quot;House of Dhaaga&quot;</bucket>
+              <bucket>&quot;House of JAMMIES&quot;</bucket>
+              <bucket>&quot;HOUSE OF JAMOTI&quot;</bucket>
+              <bucket>&quot;HOUSE OF KARI&quot;</bucket>
+              <bucket>&quot;HOUSE OF KKARMA&quot;</bucket>
+              <bucket>&quot;House of Mool&quot;</bucket>
+              <bucket>&quot;House of Pataudi&quot;</bucket>
+              <bucket>&quot;HPS Sports&quot;</bucket>
+              <bucket>&quot;HRITIKA&quot;</bucket>
+              <bucket>&quot;HRX&quot;</bucket>
+              <bucket>&quot;HRX by Hrithik Roshan&quot;</bucket>
+              <bucket>&quot;Hubberholme&quot;</bucket>
+              <bucket>&quot;Huetrap&quot;</bucket>
+              <bucket>&quot;Huggun&quot;</bucket>
+              <bucket>&quot;hummel&quot;</bucket>
+              <bucket>&quot;Hunkemoller&quot;</bucket>
+              <bucket>&quot;Hush Puppies&quot;</bucket>
+              <bucket>&quot;Hypernation&quot;</bucket>
+              <bucket>&quot;I Am Animal&quot;</bucket>
+              <bucket>&quot;I AM FOR YOU&quot;</bucket>
+              <bucket>&quot;I Jewels&quot;</bucket>
+              <bucket>&quot;I Know&quot;</bucket>
+              <bucket>&quot;I like me&quot;</bucket>
+              <bucket>&quot;I Saw It First&quot;</bucket>
+              <bucket>&quot;IC4&quot;</bucket>
+              <bucket>&quot;Idalia&quot;</bucket>
+              <bucket>&quot;IDK&quot;</bucket>
+              <bucket>&quot;IkDaiya&quot;</bucket>
+              <bucket>&quot;iki chic&quot;</bucket>
+              <bucket>&quot;Ikk Kudi by Seerat&quot;</bucket>
+              <bucket>&quot;IMARA&quot;</bucket>
+              <bucket>&quot;Imfashini&quot;</bucket>
+              <bucket>&quot;IMPACKT&quot;</bucket>
+              <bucket>&quot;IMPERATIVE&quot;</bucket>
+              <bucket>&quot;IMT&quot;</bucket>
+              <bucket>&quot;IMYOUNG&quot;</bucket>
+              <bucket>&quot;Inddus&quot;</bucket>
+              <bucket>&quot;INDDUS PLUS&quot;</bucket>
+              <bucket>&quot;INDE by MISH&quot;</bucket>
+              <bucket>&quot;Indethnic&quot;</bucket>
+              <bucket>&quot;Indi INSIDE&quot;</bucket>
+              <bucket>&quot;Indian Dobby&quot;</bucket>
+              <bucket>&quot;INDIAN EPIC&quot;</bucket>
+              <bucket>&quot;Indian Poshakh&quot;</bucket>
+              <bucket>&quot;Indian Terrain&quot;</bucket>
+              <bucket>&quot;Indian Virasat&quot;</bucket>
+              <bucket>&quot;Indian Women&quot;</bucket>
+              <bucket>&quot;INDIAN WOOTZ&quot;</bucket>
+              <bucket>&quot;Indiankala4u&quot;</bucket>
+              <bucket>&quot;Indibelle&quot;</bucket>
+              <bucket>&quot;Indietoga&quot;</bucket>
+              <bucket>&quot;Indo Era&quot;</bucket>
+              <bucket>&quot;indus route by Pantaloons&quot;</bucket>
+              <bucket>&quot;IndusDiva Infusions&quot;</bucket>
+              <bucket>&quot;IndusDiva Loomnic&quot;</bucket>
+              <bucket>&quot;INDYA&quot;</bucket>
+              <bucket>&quot;INDYES&quot;</bucket>
+              <bucket>&quot;Inesis By Decathlon&quot;</bucket>
+              <bucket>&quot;Inner Sense&quot;</bucket>
+              <bucket>&quot;Innocence&quot;</bucket>
+              <bucket>&quot;inocenCia&quot;</bucket>
+              <bucket>&quot;Instafab Plus&quot;</bucket>
+              <bucket>&quot;Insua&quot;</bucket>
+              <bucket>&quot;INVICTUS&quot;</bucket>
+              <bucket>&quot;Invictus Indoor&quot;</bucket>
+              <bucket>&quot;Invincible&quot;</bucket>
+              <bucket>&quot;InWeave&quot;</bucket>
+              <bucket>&quot;iO&quot;</bucket>
+              <bucket>&quot;IQRAAR&quot;</bucket>
+              <bucket>&quot;Ira Soleil&quot;</bucket>
+              <bucket>&quot;IRIDAA JAIPUR&quot;</bucket>
+              <bucket>&quot;Iris&quot;</bucket>
+              <bucket>&quot;Ishin&quot;</bucket>
+              <bucket>&quot;Istyle Can&quot;</bucket>
+              <bucket>&quot;ISU&quot;</bucket>
+              <bucket>&quot;Iti&quot;</bucket>
+              <bucket>&quot;itse&quot;</bucket>
+              <bucket>&quot;Ives&quot;</bucket>
+              <bucket>&quot;IVOC&quot;</bucket>
+              <bucket>&quot;IVOC Plus&quot;</bucket>
+              <bucket>&quot;IX IMPRESSION&quot;</bucket>
+              <bucket>&quot;IZOD&quot;</bucket>
+              <bucket>&quot;J Hampstead&quot;</bucket>
+              <bucket>&quot;J Style&quot;</bucket>
+              <bucket>&quot;J Turritopsis&quot;</bucket>
+              <bucket>&quot;JAAIVE&quot;</bucket>
+              <bucket>&quot;Jack &amp; Jones&quot;</bucket>
+              <bucket>&quot;JACKDANZA&quot;</bucket>
+              <bucket>&quot;JADE BLUE&quot;</bucket>
+              <bucket>&quot;Jade Garden&quot;</bucket>
+              <bucket>&quot;JAINISH&quot;</bucket>
+              <bucket>&quot;JAIPUR ATTIRE&quot;</bucket>
+              <bucket>&quot;Jaipur Kurti&quot;</bucket>
+              <bucket>&quot;Jaipur Morni&quot;</bucket>
+              <bucket>&quot;JAIPURI BUNAAI&quot;</bucket>
+              <bucket>&quot;Janasya&quot;</bucket>
+              <bucket>&quot;Jansi&quot;</bucket>
+              <bucket>&quot;Jansons&quot;</bucket>
+              <bucket>&quot;JAPS&quot;</bucket>
+              <bucket>&quot;Jashvi Creation&quot;</bucket>
+              <bucket>&quot;JATRIQQ&quot;</bucket>
+              <bucket>&quot;JAVTA&quot;</bucket>
+              <bucket>&quot;JB STUDIO&quot;</bucket>
+              <bucket>&quot;JC Collection&quot;</bucket>
+              <bucket>&quot;JC Mode&quot;</bucket>
+              <bucket>&quot;JDC&quot;</bucket>
+              <bucket>&quot;Jealous 21&quot;</bucket>
+              <bucket>&quot;Jean Cafe&quot;</bucket>
+              <bucket>&quot;JerfSports&quot;</bucket>
+              <bucket>&quot;JEWELS GEHNA&quot;</bucket>
+              <bucket>&quot;Jinfo&quot;</bucket>
+              <bucket>&quot;JISORA&quot;</bucket>
+              <bucket>&quot;JJAAGG T&quot;</bucket>
+              <bucket>&quot;Jockey&quot;</bucket>
+              <bucket>&quot;JoE Hazel&quot;</bucket>
+              <bucket>&quot;John Players&quot;</bucket>
+              <bucket>&quot;John Pride&quot;</bucket>
+              <bucket>&quot;Johnny Bravo by Kook N Keech&quot;</bucket>
+              <bucket>&quot;Jolie robe&quot;</bucket>
+              <bucket>&quot;Jompers&quot;</bucket>
+              <bucket>&quot;Joven&quot;</bucket>
+              <bucket>&quot;JSItaliya&quot;</bucket>
+              <bucket>&quot;Juelle&quot;</bucket>
+              <bucket>&quot;Juliet&quot;</bucket>
+              <bucket>&quot;July Nightwear&quot;</bucket>
+              <bucket>&quot;JUMP USA&quot;</bucket>
+              <bucket>&quot;JUNAROSE&quot;</bucket>
+              <bucket>&quot;JUNE &amp; HARRY&quot;</bucket>
+              <bucket>&quot;JUNEBERRY&quot;</bucket>
+              <bucket>&quot;Juniper&quot;</bucket>
+              <bucket>&quot;Juniper Plus&quot;</bucket>
+              <bucket>&quot;JUNK de LUXE&quot;</bucket>
+              <bucket>&quot;Just Wow&quot;</bucket>
+              <bucket>&quot;Justanned&quot;</bucket>
+              <bucket>&quot;Justice League&quot;</bucket>
+              <bucket>&quot;justpeachy&quot;</bucket>
+              <bucket>&quot;Juventus&quot;</bucket>
+              <bucket>&quot;KAAJH&quot;</bucket>
+              <bucket>&quot;Kaifoo&quot;</bucket>
+              <bucket>&quot;KAJARU&quot;</bucket>
+              <bucket>&quot;KAJREE&quot;</bucket>
+              <bucket>&quot;Kalakari India&quot;</bucket>
+              <bucket>&quot;Kalamandir&quot;</bucket>
+              <bucket>&quot;Kalenji By Decathlon&quot;</bucket>
+              <bucket>&quot;KALINI&quot;</bucket>
+              <bucket>&quot;Kalista&quot;</bucket>
+              <bucket>&quot;Kalt&quot;</bucket>
+              <bucket>&quot;Kalyani&quot;</bucket>
+              <bucket>&quot;KAMI KUBI&quot;</bucket>
+              <bucket>&quot;Kannan&quot;</bucket>
+              <bucket>&quot;Kanvin&quot;</bucket>
+              <bucket>&quot;Kappa&quot;</bucket>
+              <bucket>&quot;KARAGIRI&quot;</bucket>
+              <bucket>&quot;KARATCART&quot;</bucket>
+              <bucket>&quot;Karigari&quot;</bucket>
+              <bucket>&quot;Karmic Vision&quot;</bucket>
+              <bucket>&quot;kasee&quot;</bucket>
+              <bucket>&quot;KASSUALLY&quot;</bucket>
+              <bucket>&quot;Kastner&quot;</bucket>
+              <bucket>&quot;Katn India&quot;</bucket>
+              <bucket>&quot;KATSO&quot;</bucket>
+              <bucket>&quot;KAVYA SAREES&quot;</bucket>
+              <bucket>&quot;Kawach&quot;</bucket>
+              <bucket>&quot;Kazo&quot;</bucket>
+              <bucket>&quot;KBZ&quot;</bucket>
+              <bucket>&quot;KEEP CART&quot;</bucket>
+              <bucket>&quot;KENDALL &amp; KYLIE&quot;</bucket>
+              <bucket>&quot;Kenneth Cole&quot;</bucket>
+              <bucket>&quot;Kesarya&quot;</bucket>
+              <bucket>&quot;KETAKI FASHION&quot;</bucket>
+              <bucket>&quot;KETCH&quot;</bucket>
+              <bucket>&quot;KHADIO&quot;</bucket>
+              <bucket>&quot;Khoday Williams&quot;</bucket>
+              <bucket>&quot;KHUMAAR Shuchi Bhutani&quot;</bucket>
+              <bucket>&quot;Khushal K&quot;</bucket>
+              <bucket>&quot;Kiaahvi by JOHN PRIDE&quot;</bucket>
+              <bucket>&quot;Kiana&quot;</bucket>
+              <bucket>&quot;KICA&quot;</bucket>
+              <bucket>&quot;Kifahari&quot;</bucket>
+              <bucket>&quot;Killer&quot;</bucket>
+              <bucket>&quot;KIMAYRA&quot;</bucket>
+              <bucket>&quot;KINGDOM OF WHITE&quot;</bucket>
+              <bucket>&quot;kipek&quot;</bucket>
+              <bucket>&quot;KIPRUN By Decathlon&quot;</bucket>
+              <bucket>&quot;Kipsta By Decathlon&quot;</bucket>
+              <bucket>&quot;Kira&quot;</bucket>
+              <bucket>&quot;KISAH&quot;</bucket>
+              <bucket>&quot;KISAH PLUS&quot;</bucket>
+              <bucket>&quot;Kiyashi&quot;</bucket>
+              <bucket>&quot;Klamotten&quot;</bucket>
+              <bucket>&quot;KLAS NOBL&quot;</bucket>
+              <bucket>&quot;klauressa&quot;</bucket>
+              <bucket>&quot;KLM Fashion Mall&quot;</bucket>
+              <bucket>&quot;KLOTTHE&quot;</bucket>
+              <bucket>&quot;KOI SLEEPWEAR&quot;</bucket>
+              <bucket>&quot;Kolor Fusion&quot;</bucket>
+              <bucket>&quot;KOMLI&quot;</bucket>
+              <bucket>&quot;KOOCHI POOCHI&quot;</bucket>
+              <bucket>&quot;Kook N Keech&quot;</bucket>
+              <bucket>&quot;Kook N Keech Batman&quot;</bucket>
+              <bucket>&quot;Kook N Keech Disney&quot;</bucket>
+              <bucket>&quot;Kook N Keech Emoji&quot;</bucket>
+              <bucket>&quot;Kook N Keech Harry Potter&quot;</bucket>
+              <bucket>&quot;Kook N Keech Looney Tunes&quot;</bucket>
+              <bucket>&quot;Kook N Keech Marvel&quot;</bucket>
+              <bucket>&quot;Kook N Keech Star Wars&quot;</bucket>
+              <bucket>&quot;Kook N Keech Superman&quot;</bucket>
+              <bucket>&quot;Kook N Keech Toons&quot;</bucket>
+              <bucket>&quot;Kook N Keech Wonder Woman&quot;</bucket>
+              <bucket>&quot;KOPNHAGN&quot;</bucket>
+              <bucket>&quot;Kosha&quot;</bucket>
+              <bucket>&quot;Koton&quot;</bucket>
+              <bucket>&quot;Kotty&quot;</bucket>
+              <bucket>&quot;KRA&quot;</bucket>
+              <bucket>&quot;KRAFT INDIA&quot;</bucket>
+              <bucket>&quot;Kraus Jeans&quot;</bucket>
+              <bucket>&quot;kriatma&quot;</bucket>
+              <bucket>&quot;KROSSSTITCH&quot;</bucket>
+              <bucket>&quot;Kryptic&quot;</bucket>
+              <bucket>&quot;KSUT&quot;</bucket>
+              <bucket>&quot;Kuber Studio&quot;</bucket>
+              <bucket>&quot;KULTPRIT&quot;</bucket>
+              <bucket>&quot;Kuons Avenue&quot;</bucket>
+              <bucket>&quot;KUPINDA&quot;</bucket>
+              <bucket>&quot;Kurti&apos;s by Menka&quot;</bucket>
+              <bucket>&quot;Kurtipedia&quot;</bucket>
+              <bucket>&quot;Kushal&apos;s Fashion Jewellery&quot;</bucket>
+              <bucket>&quot;Kvsfab&quot;</bucket>
+              <bucket>&quot;La Aimee&quot;</bucket>
+              <bucket>&quot;La Bele&quot;</bucket>
+              <bucket>&quot;La Intimo&quot;</bucket>
+              <bucket>&quot;LA LOFT&quot;</bucket>
+              <bucket>&quot;La Mode&quot;</bucket>
+              <bucket>&quot;La Senza&quot;</bucket>
+              <bucket>&quot;La Vastraa&quot;</bucket>
+              <bucket>&quot;La Zoire&quot;</bucket>
+              <bucket>&quot;Laa Calcutta&quot;</bucket>
+              <bucket>&quot;Laabha&quot;</bucket>
+              <bucket>&quot;Laado - Pamper Yourself&quot;</bucket>
+              <bucket>&quot;LAASA  SPORTS&quot;</bucket>
+              <bucket>&quot;laavian&quot;</bucket>
+              <bucket>&quot;LABEL AARNA&quot;</bucket>
+              <bucket>&quot;LABEL REGALIA&quot;</bucket>
+              <bucket>&quot;Label Ritu Kumar&quot;</bucket>
+              <bucket>&quot;Label Tamanna Rungta&quot;</bucket>
+              <bucket>&quot;Laceandme&quot;</bucket>
+              <bucket>&quot;LacyLook&quot;</bucket>
+              <bucket>&quot;LADUSAA&quot;</bucket>
+              <bucket>&quot;Lady Love&quot;</bucket>
+              <bucket>&quot;Lady Lyka&quot;</bucket>
+              <bucket>&quot;LAGAAV&quot;</bucket>
+              <bucket>&quot;Lagashi&quot;</bucket>
+              <bucket>&quot;LAHEJA&quot;</bucket>
+              <bucket>&quot;Lakshita&quot;</bucket>
+              <bucket>&quot;lal10&quot;</bucket>
+              <bucket>&quot;LAMAAYA&quot;</bucket>
+              <bucket>&quot;LAMOURE BY RED CHIEF&quot;</bucket>
+              <bucket>&quot;LastInch&quot;</bucket>
+              <bucket>&quot;Latest Chikan Garments&quot;</bucket>
+              <bucket>&quot;Latin Quarters&quot;</bucket>
+              <bucket>&quot;Lavanya&quot;</bucket>
+              <bucket>&quot;Lavanya The Label&quot;</bucket>
+              <bucket>&quot;Lavika Couture&quot;</bucket>
+              <bucket>&quot;LAVOS&quot;</bucket>
+              <bucket>&quot;Lawman pg3&quot;</bucket>
+              <bucket>&quot;LAYA&quot;</bucket>
+              <bucket>&quot;LE BOURGEOIS&quot;</bucket>
+              <bucket>&quot;Leading Lady&quot;</bucket>
+              <bucket>&quot;Leather Retail&quot;</bucket>
+              <bucket>&quot;Lebami&quot;</bucket>
+              <bucket>&quot;Lee&quot;</bucket>
+              <bucket>&quot;Lee Cooper&quot;</bucket>
+              <bucket>&quot;Leeza Store&quot;</bucket>
+              <bucket>&quot;LELA&quot;</bucket>
+              <bucket>&quot;Lenissa&quot;</bucket>
+              <bucket>&quot;Levis&quot;</bucket>
+              <bucket>&quot;LEWAWAA&quot;</bucket>
+              <bucket>&quot;Li-Ning&quot;</bucket>
+              <bucket>&quot;Libas&quot;</bucket>
+              <bucket>&quot;Ligalz&quot;</bucket>
+              <bucket>&quot;LILL&quot;</bucket>
+              <bucket>&quot;Lilots&quot;</bucket>
+              <bucket>&quot;LINDBERGH&quot;</bucket>
+              <bucket>&quot;Linen Club&quot;</bucket>
+              <bucket>&quot;Linen Club Woman&quot;</bucket>
+              <bucket>&quot;Lino Perros&quot;</bucket>
+              <bucket>&quot;Little Musketeer&quot;</bucket>
+              <bucket>&quot;Llajja&quot;</bucket>
+              <bucket>&quot;Llak Jeans&quot;</bucket>
+              <bucket>&quot;LOCOMOTIVE&quot;</bucket>
+              <bucket>&quot;Lokatita&quot;</bucket>
+              <bucket>&quot;Lombard&quot;</bucket>
+              <bucket>&quot;London Rag&quot;</bucket>
+              <bucket>&quot;LOOKNBOOK ART&quot;</bucket>
+              <bucket>&quot;LOOM LEGACY&quot;</bucket>
+              <bucket>&quot;Looney Tunes by Dressberry&quot;</bucket>
+              <bucket>&quot;Looney Tunes By Sztori&quot;</bucket>
+              <bucket>&quot;Lotto&quot;</bucket>
+              <bucket>&quot;Louis Philippe&quot;</bucket>
+              <bucket>&quot;Louis Philippe Ath.Work&quot;</bucket>
+              <bucket>&quot;Louis Philippe ATHPLAY&quot;</bucket>
+              <bucket>&quot;Louis Philippe Jeans&quot;</bucket>
+              <bucket>&quot;Louis Philippe Sport&quot;</bucket>
+              <bucket>&quot;LOUIS STITCH&quot;</bucket>
+              <bucket>&quot;Lounge Dreams&quot;</bucket>
+              <bucket>&quot;Love More&quot;</bucket>
+              <bucket>&quot;Lovely Lady&quot;</bucket>
+              <bucket>&quot;Lovista&quot;</bucket>
+              <bucket>&quot;LUCERO&quot;</bucket>
+              <bucket>&quot;Luni&quot;</bucket>
+              <bucket>&quot;Lux Cozi&quot;</bucket>
+              <bucket>&quot;LUX Cozi for her&quot;</bucket>
+              <bucket>&quot;LUX MAESTRO&quot;</bucket>
+              <bucket>&quot;Luxrio&quot;</bucket>
+              <bucket>&quot;LUXURAZI&quot;</bucket>
+              <bucket>&quot;Luxure by Louis Philippe&quot;</bucket>
+              <bucket>&quot;LY2&quot;</bucket>
+              <bucket>&quot;LYKKEIN&quot;</bucket>
+              <bucket>&quot;M7 by Metronaut&quot;</bucket>
+              <bucket>&quot;M&amp;H Easy&quot;</bucket>
+              <bucket>&quot;M&amp;H Our Water&quot;</bucket>
+              <bucket>&quot;Maaesa&quot;</bucket>
+              <bucket>&quot;maaisarah&quot;</bucket>
+              <bucket>&quot;MAAND&quot;</bucket>
+              <bucket>&quot;Maanja&quot;</bucket>
+              <bucket>&quot;MAASHIE&quot;</bucket>
+              <bucket>&quot;MABISH by Sonal Jain&quot;</bucket>
+              <bucket>&quot;mackly&quot;</bucket>
+              <bucket>&quot;Macroman M-Series&quot;</bucket>
+              <bucket>&quot;Macrowoman W-Series&quot;</bucket>
+              <bucket>&quot;Madame&quot;</bucket>
+              <bucket>&quot;MADAME M SECRET&quot;</bucket>
+              <bucket>&quot;MADHURAM&quot;</bucket>
+              <bucket>&quot;MADSTO&quot;</bucket>
+              <bucket>&quot;Mafadeny&quot;</bucket>
+              <bucket>&quot;MAFE&quot;</bucket>
+              <bucket>&quot;MAG&quot;</bucket>
+              <bucket>&quot;Magnetic Designs&quot;</bucket>
+              <bucket>&quot;MAGRE&quot;</bucket>
+              <bucket>&quot;Maishi&quot;</bucket>
+              <bucket>&quot;MAIYEE&quot;</bucket>
+              <bucket>&quot;MAKCLAN&quot;</bucket>
+              <bucket>&quot;Malachi&quot;</bucket>
+              <bucket>&quot;MALHAAR&quot;</bucket>
+              <bucket>&quot;Mameraa&quot;</bucket>
+              <bucket>&quot;MAMMA PRESTO&quot;</bucket>
+              <bucket>&quot;Man Matters&quot;</bucket>
+              <bucket>&quot;MANAMAGAN&quot;</bucket>
+              <bucket>&quot;MANGO&quot;</bucket>
+              <bucket>&quot;MANGO MAN&quot;</bucket>
+              <bucket>&quot;Maniac&quot;</bucket>
+              <bucket>&quot;Manish Creations&quot;</bucket>
+              <bucket>&quot;MANOHARI&quot;</bucket>
+              <bucket>&quot;MANQ&quot;</bucket>
+              <bucket>&quot;ManQ CASUAL&quot;</bucket>
+              <bucket>&quot;MANQ Plus&quot;</bucket>
+              <bucket>&quot;Manthan&quot;</bucket>
+              <bucket>&quot;Manu&quot;</bucket>
+              <bucket>&quot;Manyavar&quot;</bucket>
+              <bucket>&quot;MARC&quot;</bucket>
+              <bucket>&quot;Marc Loire&quot;</bucket>
+              <bucket>&quot;MARC LOUIS&quot;</bucket>
+              <bucket>&quot;Marcia&quot;</bucket>
+              <bucket>&quot;Marie Claire&quot;</bucket>
+              <bucket>&quot;Marigold by FableStreet&quot;</bucket>
+              <bucket>&quot;Mark Leute&quot;</bucket>
+              <bucket>&quot;Marks &amp; Spencer&quot;</bucket>
+              <bucket>&quot;Martini&quot;</bucket>
+              <bucket>&quot;Marvel Avengers&quot;</bucket>
+              <bucket>&quot;Marvel by Wear Your Mind&quot;</bucket>
+              <bucket>&quot;MARZENI&quot;</bucket>
+              <bucket>&quot;Masaba&quot;</bucket>
+              <bucket>&quot;Masch Sports&quot;</bucket>
+              <bucket>&quot;MASCLN SASSAFRAS&quot;</bucket>
+              <bucket>&quot;Masculino Latino&quot;</bucket>
+              <bucket>&quot;Masculino Latino Plus&quot;</bucket>
+              <bucket>&quot;MASH UNLIMITED&quot;</bucket>
+              <bucket>&quot;Masha&quot;</bucket>
+              <bucket>&quot;Mast &amp; Harbour&quot;</bucket>
+              <bucket>&quot;Matinique&quot;</bucket>
+              <bucket>&quot;max&quot;</bucket>
+              <bucket>&quot;MAXENCE&quot;</bucket>
+              <bucket>&quot;Maybell&quot;</bucket>
+              <bucket>&quot;Mayra&quot;</bucket>
+              <bucket>&quot;MAYSIXTY&quot;</bucket>
+              <bucket>&quot;MBE&quot;</bucket>
+              <bucket>&quot;MBeautiful&quot;</bucket>
+              <bucket>&quot;MeeMee&quot;</bucket>
+              <bucket>&quot;Meena Bazaar&quot;</bucket>
+              <bucket>&quot;MEERA FAB&quot;</bucket>
+              <bucket>&quot;Meeranshi&quot;</bucket>
+              <bucket>&quot;Melange by Lifestyle&quot;</bucket>
+              <bucket>&quot;Melangebox&quot;</bucket>
+              <bucket>&quot;MELON&quot;</bucket>
+              <bucket>&quot;MELOSO&quot;</bucket>
+              <bucket>&quot;MERCHANT MARINE&quot;</bucket>
+              <bucket>&quot;MERCHE&quot;</bucket>
+              <bucket>&quot;MERLOT&quot;</bucket>
+              <bucket>&quot;Mesmerize&quot;</bucket>
+              <bucket>&quot;Mesmore&quot;</bucket>
+              <bucket>&quot;METAL&quot;</bucket>
+              <bucket>&quot;Metersbonwe&quot;</bucket>
+              <bucket>&quot;Metronaut&quot;</bucket>
+              <bucket>&quot;METTLE&quot;</bucket>
+              <bucket>&quot;MEWAR&quot;</bucket>
+              <bucket>&quot;mezmoda&quot;</bucket>
+              <bucket>&quot;mf&quot;</bucket>
+              <bucket>&quot;Miaz Lifestyle&quot;</bucket>
+              <bucket>&quot;MIDNIGHT ANGELS BY PC&quot;</bucket>
+              <bucket>&quot;MIKHAD&quot;</bucket>
+              <bucket>&quot;MILLENNIAL MEN&quot;</bucket>
+              <bucket>&quot;MIMOSA&quot;</bucket>
+              <bucket>&quot;Mine4Nine&quot;</bucket>
+              <bucket>&quot;MINGLAY&quot;</bucket>
+              <bucket>&quot;Minions by Dressberry&quot;</bucket>
+              <bucket>&quot;Minions by Kook N Keech&quot;</bucket>
+              <bucket>&quot;Minora&quot;</bucket>
+              <bucket>&quot;Mint &amp; Oak&quot;</bucket>
+              <bucket>&quot;Miramor&quot;</bucket>
+              <bucket>&quot;mirari&quot;</bucket>
+              <bucket>&quot;MIRAVAN&quot;</bucket>
+              <bucket>&quot;MIRCHI FASHION&quot;</bucket>
+              <bucket>&quot;Mirchi Fashion&quot;</bucket>
+              <bucket>&quot;Mirraw&quot;</bucket>
+              <bucket>&quot;MISH&quot;</bucket>
+              <bucket>&quot;MISRI&quot;</bucket>
+              <bucket>&quot;Miss Bennett&quot;</bucket>
+              <bucket>&quot;Miss Chase&quot;</bucket>
+              <bucket>&quot;Miss Poem&quot;</bucket>
+              <bucket>&quot;Missguided&quot;</bucket>
+              <bucket>&quot;Mitera&quot;</bucket>
+              <bucket>&quot;Mizash&quot;</bucket>
+              <bucket>&quot;Mizuno&quot;</bucket>
+              <bucket>&quot;Mizzific&quot;</bucket>
+              <bucket>&quot;MKH&quot;</bucket>
+              <bucket>&quot;mod &amp; shy&quot;</bucket>
+              <bucket>&quot;Moda Chales&quot;</bucket>
+              <bucket>&quot;Moda Rapido&quot;</bucket>
+              <bucket>&quot;MODARTA&quot;</bucket>
+              <bucket>&quot;Mode by Red Tape&quot;</bucket>
+              <bucket>&quot;mode de base&quot;</bucket>
+              <bucket>&quot;Mode Vetements&quot;</bucket>
+              <bucket>&quot;Modern Indian by CHEMISTRY&quot;</bucket>
+              <bucket>&quot;Modeve&quot;</bucket>
+              <bucket>&quot;MODI JACKET&quot;</bucket>
+              <bucket>&quot;Modi Kurta&quot;</bucket>
+              <bucket>&quot;MODLI 20 FASHION&quot;</bucket>
+              <bucket>&quot;Modriba&quot;</bucket>
+              <bucket>&quot;Moedbuille&quot;</bucket>
+              <bucket>&quot;MOHANLAL SONS&quot;</bucket>
+              <bucket>&quot;MOHEY&quot;</bucket>
+              <bucket>&quot;Mojama&quot;</bucket>
+              <bucket>&quot;MOKSHA DESIGNS&quot;</bucket>
+              <bucket>&quot;mokshi&quot;</bucket>
+              <bucket>&quot;Molcha&quot;</bucket>
+              <bucket>&quot;Molly &amp; Michel&quot;</bucket>
+              <bucket>&quot;Mom For Sure by Ketki Dalal&quot;</bucket>
+              <bucket>&quot;MOMIN LIBAS&quot;</bucket>
+              <bucket>&quot;Moms Maternity&quot;</bucket>
+              <bucket>&quot;Momsoon Maternity&quot;</bucket>
+              <bucket>&quot;MomToBe&quot;</bucket>
+              <bucket>&quot;MONJOLIKA FASHION&quot;</bucket>
+              <bucket>&quot;Monk &amp; Mei&quot;</bucket>
+              <bucket>&quot;MONOCHROME&quot;</bucket>
+              <bucket>&quot;Monte Carlo&quot;</bucket>
+              <bucket>&quot;MotoGP&quot;</bucket>
+              <bucket>&quot;MPL SPORTS&quot;</bucket>
+              <bucket>&quot;Mr Bowerbird&quot;</bucket>
+              <bucket>&quot;MR BUTTON&quot;</bucket>
+              <bucket>&quot;Mr. Button&quot;</bucket>
+              <bucket>&quot;MR.KAMEEJ&quot;</bucket>
+              <bucket>&quot;MS RETAIL&quot;</bucket>
+              <bucket>&quot;Ms.Lingies&quot;</bucket>
+              <bucket>&quot;Ms.Taken&quot;</bucket>
+              <bucket>&quot;MsFQ&quot;</bucket>
+              <bucket>&quot;MUFFLY&quot;</bucket>
+              <bucket>&quot;Mufti&quot;</bucket>
+              <bucket>&quot;Mulmul By Arabella&quot;</bucket>
+              <bucket>&quot;Mumbai Indians&quot;</bucket>
+              <bucket>&quot;MUSCLE TORQUE&quot;</bucket>
+              <bucket>&quot;MUTAQINOTI&quot;</bucket>
+              <bucket>&quot;MYAZA&quot;</bucket>
+              <bucket>&quot;MYLO ESSENTIALS&quot;</bucket>
+              <bucket>&quot;Myshka&quot;</bucket>
+              <bucket>&quot;Mystere Paris&quot;</bucket>
+              <bucket>&quot;N Dot&quot;</bucket>
+              <bucket>&quot;N2S NEXT2SKIN&quot;</bucket>
+              <bucket>&quot;N-Gal&quot;</bucket>
+              <bucket>&quot;NA-KD&quot;</bucket>
+              <bucket>&quot;Naari&quot;</bucket>
+              <bucket>&quot;Nabaiji By Decathlon&quot;</bucket>
+              <bucket>&quot;NABIA&quot;</bucket>
+              <bucket>&quot;Nahara&quot;</bucket>
+              <bucket>&quot;NAINA ARUNIMA&quot;</bucket>
+              <bucket>&quot;NAKKASHI&quot;</bucket>
+              <bucket>&quot;Nakshi&quot;</bucket>
+              <bucket>&quot;NAMASKAR&quot;</bucket>
+              <bucket>&quot;Nanda Silk Mills&quot;</bucket>
+              <bucket>&quot;Napra&quot;</bucket>
+              <bucket>&quot;Nation Polo Club&quot;</bucket>
+              <bucket>&quot;Nature Casuals&quot;</bucket>
+              <bucket>&quot;Nautica&quot;</bucket>
+              <bucket>&quot;navyasa&quot;</bucket>
+              <bucket>&quot;NAVYSPORT&quot;</bucket>
+              <bucket>&quot;Nayo&quot;</bucket>
+              <bucket>&quot;NBA&quot;</bucket>
+              <bucket>&quot;NDS Niharikaa Designer Studio&quot;</bucket>
+              <bucket>&quot;neckbook&quot;</bucket>
+              <bucket>&quot;Neerus&quot;</bucket>
+              <bucket>&quot;Nehamta&quot;</bucket>
+              <bucket>&quot;Nejo&quot;</bucket>
+              <bucket>&quot;NeshamaKurti&quot;</bucket>
+              <bucket>&quot;Netram&quot;</bucket>
+              <bucket>&quot;NEU LOOK FASHION&quot;</bucket>
+              <bucket>&quot;NEUDIS&quot;</bucket>
+              <bucket>&quot;NEVA&quot;</bucket>
+              <bucket>&quot;New Balance&quot;</bucket>
+              <bucket>&quot;Newfeel By Decathlon&quot;</bucket>
+              <bucket>&quot;Newport&quot;</bucket>
+              <bucket>&quot;next&quot;</bucket>
+              <bucket>&quot;Next Look&quot;</bucket>
+              <bucket>&quot;Next One&quot;</bucket>
+              <bucket>&quot;nexus&quot;</bucket>
+              <bucket>&quot;Nick&amp;Jess&quot;</bucket>
+              <bucket>&quot;Nifty&quot;</bucket>
+              <bucket>&quot;Nike&quot;</bucket>
+              <bucket>&quot;Nimayaa&quot;</bucket>
+              <bucket>&quot;Nirkhi&quot;</bucket>
+              <bucket>&quot;Nite Flite&quot;</bucket>
+              <bucket>&quot;NITVAN&quot;</bucket>
+              <bucket>&quot;NIXX&quot;</bucket>
+              <bucket>&quot;NIZA&quot;</bucket>
+              <bucket>&quot;NoBarr&quot;</bucket>
+              <bucket>&quot;NOCHEE VIDA&quot;</bucket>
+              <bucket>&quot;Noi&quot;</bucket>
+              <bucket>&quot;Not Just Pyjamas&quot;</bucket>
+              <bucket>&quot;NOT YET by us&quot;</bucket>
+              <bucket>&quot;Numero Uno&quot;</bucket>
+              <bucket>&quot;Nun&quot;</bucket>
+              <bucket>&quot;NUSH&quot;</bucket>
+              <bucket>&quot;NYAMBA By Decathlon&quot;</bucket>
+              <bucket>&quot;Obaan&quot;</bucket>
+              <bucket>&quot;OBOW&quot;</bucket>
+              <bucket>&quot;Octave&quot;</bucket>
+              <bucket>&quot;Ode by House of Pataudi&quot;</bucket>
+              <bucket>&quot;Off Label&quot;</bucket>
+              <bucket>&quot;OFF LIMITS&quot;</bucket>
+              <bucket>&quot;OFFICE &amp; YOU&quot;</bucket>
+              <bucket>&quot;OFFIRA TEX WORLD&quot;</bucket>
+              <bucket>&quot;OHA BOY&quot;</bucket>
+              <bucket>&quot;Ojas Designs&quot;</bucket>
+              <bucket>&quot;Ojjasvi&quot;</bucket>
+              <bucket>&quot;Okane&quot;</bucket>
+              <bucket>&quot;OKHAI&quot;</bucket>
+              <bucket>&quot;OLAIAN By Decathlon&quot;</bucket>
+              <bucket>&quot;Old Grey&quot;</bucket>
+              <bucket>&quot;OM SAI LATEST CREATION&quot;</bucket>
+              <bucket>&quot;Om Shantam Sarees&quot;</bucket>
+              <bucket>&quot;OMASK&quot;</bucket>
+              <bucket>&quot;One Femme&quot;</bucket>
+              <bucket>&quot;One of a Kind&quot;</bucket>
+              <bucket>&quot;One8&quot;</bucket>
+              <bucket>&quot;one8 by Virat Kohli&quot;</bucket>
+              <bucket>&quot;one8 x PUMA&quot;</bucket>
+              <bucket>&quot;Online Fayda&quot;</bucket>
+              <bucket>&quot;ONLY&quot;</bucket>
+              <bucket>&quot;ONLY &amp; SONS&quot;</bucket>
+              <bucket>&quot;ONN&quot;</bucket>
+              <bucket>&quot;OOMPH&quot;</bucket>
+              <bucket>&quot;OPt&quot;</bucket>
+              <bucket>&quot;Orbbaan&quot;</bucket>
+              <bucket>&quot;Orchid Blues&quot;</bucket>
+              <bucket>&quot;ORIGIN BY ZALORA&quot;</bucket>
+              <bucket>&quot;ORTANGE&quot;</bucket>
+              <bucket>&quot;ORUS&quot;</bucket>
+              <bucket>&quot;Os&quot;</bucket>
+              <bucket>&quot;OTORVA&quot;</bucket>
+              <bucket>&quot;Oumbre&quot;</bucket>
+              <bucket>&quot;Ourdve&quot;</bucket>
+              <bucket>&quot;OUTSHOCK By Decathlon&quot;</bucket>
+              <bucket>&quot;OVS&quot;</bucket>
+              <bucket>&quot;Owncraft&quot;</bucket>
+              <bucket>&quot;Oxemberg&quot;</bucket>
+              <bucket>&quot;Oxolloxo&quot;</bucket>
+              <bucket>&quot;OXXO&quot;</bucket>
+              <bucket>&quot;PACHE&quot;</bucket>
+              <bucket>&quot;Pactorn&quot;</bucket>
+              <bucket>&quot;Palakh&quot;</bucket>
+              <bucket>&quot;panchhi&quot;</bucket>
+              <bucket>&quot;Pandadi Saree&quot;</bucket>
+              <bucket>&quot;PANIT&quot;</bucket>
+              <bucket>&quot;Pankvi&quot;</bucket>
+              <bucket>&quot;Pannkh&quot;</bucket>
+              <bucket>&quot;PAPA BRANDS&quot;</bucket>
+              <bucket>&quot;Paralians&quot;</bucket>
+              <bucket>&quot;PARAMOUNT CHIKAN&quot;</bucket>
+              <bucket>&quot;Parcel Yard&quot;</bucket>
+              <bucket>&quot;PARFAIT&quot;</bucket>
+              <bucket>&quot;PARIKA CREATION&quot;</bucket>
+              <bucket>&quot;PARIS HAMILTON&quot;</bucket>
+              <bucket>&quot;Park Avenue&quot;</bucket>
+              <bucket>&quot;Park Avenue Woman&quot;</bucket>
+              <bucket>&quot;PARKHA&quot;</bucket>
+              <bucket>&quot;PAROKSH&quot;</bucket>
+              <bucket>&quot;Parx&quot;</bucket>
+              <bucket>&quot;Pashmoda&quot;</bucket>
+              <bucket>&quot;Pashtush&quot;</bucket>
+              <bucket>&quot;PATRORNA&quot;</bucket>
+              <bucket>&quot;PAUSE SPORT&quot;</bucket>
+              <bucket>&quot;Pavechas&quot;</bucket>
+              <bucket>&quot;Penny&quot;</bucket>
+              <bucket>&quot;Peony Cotton Fab&quot;</bucket>
+              <bucket>&quot;PEONY SMART WORLD&quot;</bucket>
+              <bucket>&quot;People&quot;</bucket>
+              <bucket>&quot;Peora&quot;</bucket>
+              <bucket>&quot;Pepe&quot;</bucket>
+              <bucket>&quot;Pepe Jeans&quot;</bucket>
+              <bucket>&quot;PEPLOS&quot;</bucket>
+              <bucket>&quot;Peppertree&quot;</bucket>
+              <bucket>&quot;PEPPYZONE&quot;</bucket>
+              <bucket>&quot;PERFECT WEAR&quot;</bucket>
+              <bucket>&quot;PERFECTBLUE&quot;</bucket>
+              <bucket>&quot;PERFKT-U&quot;</bucket>
+              <bucket>&quot;PERFLY By Decathlon&quot;</bucket>
+              <bucket>&quot;Peter England&quot;</bucket>
+              <bucket>&quot;Peter England Casuals&quot;</bucket>
+              <bucket>&quot;Peter England Elite&quot;</bucket>
+              <bucket>&quot;PETER ENGLAND UNIVERSITY&quot;</bucket>
+              <bucket>&quot;PHEETA&quot;</bucket>
+              <bucket>&quot;PHWOAR&quot;</bucket>
+              <bucket>&quot;PICOT&quot;</bucket>
+              <bucket>&quot;Pierre Carlo&quot;</bucket>
+              <bucket>&quot;pink woman&quot;</bucket>
+              <bucket>&quot;PinkLoom&quot;</bucket>
+              <bucket>&quot;PINKSKY&quot;</bucket>
+              <bucket>&quot;PINKVILLE JAIPUR&quot;</bucket>
+              <bucket>&quot;pinwheel&quot;</bucket>
+              <bucket>&quot;PIRKO&quot;</bucket>
+              <bucket>&quot;PIROH&quot;</bucket>
+              <bucket>&quot;Pisara&quot;</bucket>
+              <bucket>&quot;Pistaa&quot;</bucket>
+              <bucket>&quot;pivot&quot;</bucket>
+              <bucket>&quot;PIVOTO&quot;</bucket>
+              <bucket>&quot;PK Fashions&quot;</bucket>
+              <bucket>&quot;Plagg&quot;</bucket>
+              <bucket>&quot;Planetinner&quot;</bucket>
+              <bucket>&quot;PLATINUM Studio&quot;</bucket>
+              <bucket>&quot;plusS&quot;</bucket>
+              <bucket>&quot;Plutus&quot;</bucket>
+              <bucket>&quot;PMD Fashion&quot;</bucket>
+              <bucket>&quot;PNEHA&quot;</bucket>
+              <bucket>&quot;PockMAN&quot;</bucket>
+              <bucket>&quot;POKER ACTIVE&quot;</bucket>
+              <bucket>&quot;POKORY&quot;</bucket>
+              <bucket>&quot;POONAM DESIGNER&quot;</bucket>
+              <bucket>&quot;POORAK&quot;</bucket>
+              <bucket>&quot;Pootlu&quot;</bucket>
+              <bucket>&quot;POPLINS&quot;</bucket>
+              <bucket>&quot;Popnetic&quot;</bucket>
+              <bucket>&quot;POPPI&quot;</bucket>
+              <bucket>&quot;Popwings&quot;</bucket>
+              <bucket>&quot;Porsorte&quot;</bucket>
+              <bucket>&quot;PORTBLAIR&quot;</bucket>
+              <bucket>&quot;Poshak Hub&quot;</bucket>
+              <bucket>&quot;Pothys&quot;</bucket>
+              <bucket>&quot;Power&quot;</bucket>
+              <bucket>&quot;Powerpuff Girls by Dressberry&quot;</bucket>
+              <bucket>&quot;Powerpuff Girls by Kook N Keech&quot;</bucket>
+              <bucket>&quot;Prag &amp; Co&quot;</bucket>
+              <bucket>&quot;PRAKASAM COTTON&quot;</bucket>
+              <bucket>&quot;Prakhya&quot;</bucket>
+              <bucket>&quot;Prakrti&quot;</bucket>
+              <bucket>&quot;Pratham Blue&quot;</bucket>
+              <bucket>&quot;PRENEA&quot;</bucket>
+              <bucket>&quot;PReT me&quot;</bucket>
+              <bucket>&quot;Pretty Awesome&quot;</bucket>
+              <bucket>&quot;PRETTYBOLD&quot;</bucket>
+              <bucket>&quot;PrettyCat&quot;</bucket>
+              <bucket>&quot;PrettyPlus by Desinoor.com&quot;</bucket>
+              <bucket>&quot;PrettySecrets&quot;</bucket>
+              <bucket>&quot;PRIDE APPAREL&quot;</bucket>
+              <bucket>&quot;PRINCINN MEYER&quot;</bucket>
+              <bucket>&quot;Private Lives&quot;</bucket>
+              <bucket>&quot;Priyaasi&quot;</bucket>
+              <bucket>&quot;Pro-Ethic STYLE DEVELOPER&quot;</bucket>
+              <bucket>&quot;Proline Active&quot;</bucket>
+              <bucket>&quot;promod&quot;</bucket>
+              <bucket>&quot;PROTEENS&quot;</bucket>
+              <bucket>&quot;Provogue&quot;</bucket>
+              <bucket>&quot;Proyog&quot;</bucket>
+              <bucket>&quot;PS PRET BY PAYAL SINGHAL&quot;</bucket>
+              <bucket>&quot;Puma&quot;</bucket>
+              <bucket>&quot;PUMA Hoops&quot;</bucket>
+              <bucket>&quot;PUMA Motorsport&quot;</bucket>
+              <bucket>&quot;PUNK&quot;</bucket>
+              <bucket>&quot;Pure Play&quot;</bucket>
+              <bucket>&quot;Purple Feather&quot;</bucket>
+              <bucket>&quot;Purple State&quot;</bucket>
+              <bucket>&quot;PURVAJA&quot;</bucket>
+              <bucket>&quot;PURYS&quot;</bucket>
+              <bucket>&quot;Putchi&quot;</bucket>
+              <bucket>&quot;Pyjama Party&quot;</bucket>
+              <bucket>&quot;QOMN&quot;</bucket>
+              <bucket>&quot;Qsymia&quot;</bucket>
+              <bucket>&quot;QUANCIOUS&quot;</bucket>
+              <bucket>&quot;QUARANTINE&quot;</bucket>
+              <bucket>&quot;QUBIC&quot;</bucket>
+              <bucket>&quot;Quechua By Decathlon&quot;</bucket>
+              <bucket>&quot;QUIERO&quot;</bucket>
+              <bucket>&quot;Quinoa&quot;</bucket>
+              <bucket>&quot;Qurvii&quot;</bucket>
+              <bucket>&quot;Quttos&quot;</bucket>
+              <bucket>&quot;R26&quot;</bucket>
+              <bucket>&quot;Raa Jeans&quot;</bucket>
+              <bucket>&quot;Raano&quot;</bucket>
+              <bucket>&quot;Raas&quot;</bucket>
+              <bucket>&quot;RAASSIO&quot;</bucket>
+              <bucket>&quot;RAD.MAD.BAD&quot;</bucket>
+              <bucket>&quot;radka&quot;</bucket>
+              <bucket>&quot;Rain &amp; Rainbow&quot;</bucket>
+              <bucket>&quot;RAISIN&quot;</bucket>
+              <bucket>&quot;Rajesh Silk Mills&quot;</bucket>
+              <bucket>&quot;RAJGRANTH&quot;</bucket>
+              <bucket>&quot;Rajnandini&quot;</bucket>
+              <bucket>&quot;Rajnie&quot;</bucket>
+              <bucket>&quot;RAJUBHAI HARGOVINDAS&quot;</bucket>
+              <bucket>&quot;Ramas&quot;</bucket>
+              <bucket>&quot;RAMRAJ COTTON&quot;</bucket>
+              <bucket>&quot;Rang Gali&quot;</bucket>
+              <bucket>&quot;RangDeep&quot;</bucket>
+              <bucket>&quot;RANGMANCH BY PANTALOONS&quot;</bucket>
+              <bucket>&quot;RANGMANCH PLUS by Pantaloons&quot;</bucket>
+              <bucket>&quot;RANGMAYEE&quot;</bucket>
+              <bucket>&quot;RANGOLI&quot;</bucket>
+              <bucket>&quot;Rangpur&quot;</bucket>
+              <bucket>&quot;Rangriti&quot;</bucket>
+              <bucket>&quot;Rapra The Label&quot;</bucket>
+              <bucket>&quot;RARE&quot;</bucket>
+              <bucket>&quot;RARE RABBIT&quot;</bucket>
+              <bucket>&quot;RARE ROOTS&quot;</bucket>
+              <bucket>&quot;RAREISM&quot;</bucket>
+              <bucket>&quot;rasm&quot;</bucket>
+              <bucket>&quot;Ratan Creation&quot;</bucket>
+              <bucket>&quot;Rattrap&quot;</bucket>
+              <bucket>&quot;Raymond&quot;</bucket>
+              <bucket>&quot;Readiprint Fashions&quot;</bucket>
+              <bucket>&quot;RED CHERI&quot;</bucket>
+              <bucket>&quot;Red Chief&quot;</bucket>
+              <bucket>&quot;Red Tape&quot;</bucket>
+              <bucket>&quot;RedRound&quot;</bucket>
+              <bucket>&quot;Reebok&quot;</bucket>
+              <bucket>&quot;Reebok Classic&quot;</bucket>
+              <bucket>&quot;Reich Color&quot;</bucket>
+              <bucket>&quot;Reistor&quot;</bucket>
+              <bucket>&quot;Remanika&quot;</bucket>
+              <bucket>&quot;REME&quot;</bucket>
+              <bucket>&quot;Resha&quot;</bucket>
+              <bucket>&quot;Restless&quot;</bucket>
+              <bucket>&quot;Reveira&quot;</bucket>
+              <bucket>&quot;Revolution&quot;</bucket>
+              <bucket>&quot;Rex Straut Jeans&quot;</bucket>
+              <bucket>&quot;RG DESIGNERS&quot;</bucket>
+              <bucket>&quot;RGHT&quot;</bucket>
+              <bucket>&quot;RHHENSO&quot;</bucket>
+              <bucket>&quot;RICHARD PARKER by Pantaloons&quot;</bucket>
+              <bucket>&quot;Richlook&quot;</bucket>
+              <bucket>&quot;Rick Masch&quot;</bucket>
+              <bucket>&quot;Rigo&quot;</bucket>
+              <bucket>&quot;Riot Jeans&quot;</bucket>
+              <bucket>&quot;Ritu Kumar&quot;</bucket>
+              <bucket>&quot;Rivana&quot;</bucket>
+              <bucket>&quot;River Of Design Jeans&quot;</bucket>
+              <bucket>&quot;RIVI&quot;</bucket>
+              <bucket>&quot;Rizzly&quot;</bucket>
+              <bucket>&quot;Roadster&quot;</bucket>
+              <bucket>&quot;Roadster Fast and Furious&quot;</bucket>
+              <bucket>&quot;rock.it&quot;</bucket>
+              <bucket>&quot;ROCKRIDER By Decathlon&quot;</bucket>
+              <bucket>&quot;Rodamo&quot;</bucket>
+              <bucket>&quot;Rodzen&quot;</bucket>
+              <bucket>&quot;Roly Poly&quot;</bucket>
+              <bucket>&quot;ROMEO ROSSI&quot;</bucket>
+              <bucket>&quot;ROOTED&quot;</bucket>
+              <bucket>&quot;Rosaline&quot;</bucket>
+              <bucket>&quot;Rosaline by Zivame&quot;</bucket>
+              <bucket>&quot;Rosso Milano&quot;</bucket>
+              <bucket>&quot;Routeen&quot;</bucket>
+              <bucket>&quot;ROVARS&quot;</bucket>
+              <bucket>&quot;ROVING MODE&quot;</bucket>
+              <bucket>&quot;Royal Enfield&quot;</bucket>
+              <bucket>&quot;Royal Rajgharana Saree&quot;</bucket>
+              <bucket>&quot;ROZVEH&quot;</bucket>
+              <bucket>&quot;Rubans&quot;</bucket>
+              <bucket>&quot;Rudra Bazaar&quot;</bucket>
+              <bucket>&quot;Rudra Fashion&quot;</bucket>
+              <bucket>&quot;RUDRAKSH&quot;</bucket>
+              <bucket>&quot;Rue Collection&quot;</bucket>
+              <bucket>&quot;RUF &amp; TUF&quot;</bucket>
+              <bucket>&quot;RUG WOODS&quot;</bucket>
+              <bucket>&quot;Ruggers&quot;</bucket>
+              <bucket>&quot;Ruhaans&quot;</bucket>
+              <bucket>&quot;RUNWAYIN&quot;</bucket>
+              <bucket>&quot;Russell Athletic&quot;</bucket>
+              <bucket>&quot;Rustorange&quot;</bucket>
+              <bucket>&quot;Rute&quot;</bucket>
+              <bucket>&quot;RVK&quot;</bucket>
+              <bucket>&quot;s.Oliver&quot;</bucket>
+              <bucket>&quot;SAABHI&quot;</bucket>
+              <bucket>&quot;Saadgi&quot;</bucket>
+              <bucket>&quot;SAADHVI&quot;</bucket>
+              <bucket>&quot;Saaki&quot;</bucket>
+              <bucket>&quot;Saanjh&quot;</bucket>
+              <bucket>&quot;Saart Bunaai&quot;</bucket>
+              <bucket>&quot;SABOO COLLECTIONS&quot;</bucket>
+              <bucket>&quot;Safaa&quot;</bucket>
+              <bucket>&quot;Saffron Threads&quot;</bucket>
+              <bucket>&quot;SAHORA&quot;</bucket>
+              <bucket>&quot;Sajke&quot;</bucket>
+              <bucket>&quot;Sakhi Jaipur&quot;</bucket>
+              <bucket>&quot;Saksh&quot;</bucket>
+              <bucket>&quot;SALWAR STUDIO&quot;</bucket>
+              <bucket>&quot;Sam and Jack&quot;</bucket>
+              <bucket>&quot;Samshek&quot;</bucket>
+              <bucket>&quot;Sand Dune&quot;</bucket>
+              <bucket>&quot;sandy AND ritz&quot;</bucket>
+              <bucket>&quot;SANGAM PRINTS&quot;</bucket>
+              <bucket>&quot;Sanganeri Kurti&quot;</bucket>
+              <bucket>&quot;Sangria&quot;</bucket>
+              <bucket>&quot;SANISA&quot;</bucket>
+              <bucket>&quot;SANSKRUTIHOMES&quot;</bucket>
+              <bucket>&quot;Santonio&quot;</bucket>
+              <bucket>&quot;Sanwara&quot;</bucket>
+              <bucket>&quot;SAPPER&quot;</bucket>
+              <bucket>&quot;SAPTRANGI&quot;</bucket>
+              <bucket>&quot;Saraf RS Jewellery&quot;</bucket>
+              <bucket>&quot;Saree mall&quot;</bucket>
+              <bucket>&quot;Saree Swarg&quot;</bucket>
+              <bucket>&quot;SARINA&quot;</bucket>
+              <bucket>&quot;SARIYA&quot;</bucket>
+              <bucket>&quot;Sasimo&quot;</bucket>
+              <bucket>&quot;SASSAFRAS&quot;</bucket>
+              <bucket>&quot;Satrani&quot;</bucket>
+              <bucket>&quot;SATVA&quot;</bucket>
+              <bucket>&quot;SATYAM WEAVES&quot;</bucket>
+              <bucket>&quot;saubhagya&quot;</bucket>
+              <bucket>&quot;Sayesha&quot;</bucket>
+              <bucket>&quot;SayItLoud&quot;</bucket>
+              <bucket>&quot;SBR BABA KURTI&quot;</bucket>
+              <bucket>&quot;Scarves &amp; Glitters&quot;</bucket>
+              <bucket>&quot;ScoldMe&quot;</bucket>
+              <bucket>&quot;SCORPIUS&quot;</bucket>
+              <bucket>&quot;Scotch &amp; Soda&quot;</bucket>
+              <bucket>&quot;SCOUP&quot;</bucket>
+              <bucket>&quot;SDL by Sweet Dreams&quot;</bucket>
+              <bucket>&quot;Secret Wish&quot;</bucket>
+              <bucket>&quot;SECRETS BY ZEROKAATA&quot;</bucket>
+              <bucket>&quot;SECRETT CURVES&quot;</bucket>
+              <bucket>&quot;See Designs&quot;</bucket>
+              <bucket>&quot;SEEQ&quot;</bucket>
+              <bucket>&quot;Seerat&quot;</bucket>
+              <bucket>&quot;SELA&quot;</bucket>
+              <bucket>&quot;SELECTED&quot;</bucket>
+              <bucket>&quot;SELVAMAGAN&quot;</bucket>
+              <bucket>&quot;Selvia&quot;</bucket>
+              <bucket>&quot;Senyora&quot;</bucket>
+              <bucket>&quot;Sera&quot;</bucket>
+              <bucket>&quot;SERONA FABRICS&quot;</bucket>
+              <bucket>&quot;Sethukrishna&quot;</bucket>
+              <bucket>&quot;SEVEN by MS Dhoni&quot;</bucket>
+              <bucket>&quot;Seven Rocks&quot;</bucket>
+              <bucket>&quot;SEW YOU SOON&quot;</bucket>
+              <bucket>&quot;SF JEANS by Pantaloons&quot;</bucket>
+              <bucket>&quot;SG&quot;</bucket>
+              <bucket>&quot;SG LEMAN&quot;</bucket>
+              <bucket>&quot;SG RAJASAHAB&quot;</bucket>
+              <bucket>&quot;Shae by SASSAFRAS&quot;</bucket>
+              <bucket>&quot;Shaftesbury London&quot;</bucket>
+              <bucket>&quot;Shahjada&quot;</bucket>
+              <bucket>&quot;Shaily&quot;</bucket>
+              <bucket>&quot;SHANGRILA&quot;</bucket>
+              <bucket>&quot;Shangrila Creation&quot;</bucket>
+              <bucket>&quot;SHARAA ETHNICA&quot;</bucket>
+              <bucket>&quot;shashvi&quot;</bucket>
+              <bucket>&quot;SHAVYA&quot;</bucket>
+              <bucket>&quot;SHAYE&quot;</bucket>
+              <bucket>&quot;SHECZZAR&quot;</bucket>
+              <bucket>&quot;SHEETAL Associates&quot;</bucket>
+              <bucket>&quot;SHERRY&quot;</bucket>
+              <bucket>&quot;SheWill&quot;</bucket>
+              <bucket>&quot;SHFFL&quot;</bucket>
+              <bucket>&quot;shiloh&quot;</bucket>
+              <bucket>&quot;SHINGORA&quot;</bucket>
+              <bucket>&quot;SHINOY&quot;</bucket>
+              <bucket>&quot;SHIRT THEORY&quot;</bucket>
+              <bucket>&quot;shopbloom&quot;</bucket>
+              <bucket>&quot;SHOPGARB&quot;</bucket>
+              <bucket>&quot;Shopping Queen&quot;</bucket>
+              <bucket>&quot;SHOWOFF&quot;</bucket>
+              <bucket>&quot;SHOWOFF Plus&quot;</bucket>
+              <bucket>&quot;Shree&quot;</bucket>
+              <bucket>&quot;SHRESTHA BY VASTRAMAY&quot;</bucket>
+              <bucket>&quot;SHRINKHLA&quot;</bucket>
+              <bucket>&quot;SHUBHKALA&quot;</bucket>
+              <bucket>&quot;SHUBHVASTRA&quot;</bucket>
+              <bucket>&quot;Shuddhi&quot;</bucket>
+              <bucket>&quot;SHVAAS by VASTRAMAY&quot;</bucket>
+              <bucket>&quot;shyaway&quot;</bucket>
+              <bucket>&quot;SI2 SLIP IN 2&quot;</bucket>
+              <bucket>&quot;SIAH&quot;</bucket>
+              <bucket>&quot;SIAPA&quot;</bucket>
+              <bucket>&quot;Sibi&quot;</bucket>
+              <bucket>&quot;SIDEWOK&quot;</bucket>
+              <bucket>&quot;Sidwa&quot;</bucket>
+              <bucket>&quot;Silai Bunai&quot;</bucket>
+              <bucket>&quot;Silk Bazar&quot;</bucket>
+              <bucket>&quot;Silk Land&quot;</bucket>
+              <bucket>&quot;SILVER STOCK&quot;</bucket>
+              <bucket>&quot;Silvermerc Designs&quot;</bucket>
+              <bucket>&quot;Silvertraq&quot;</bucket>
+              <bucket>&quot;SIMON CARTER LONDON&quot;</bucket>
+              <bucket>&quot;Simond By Decathlon&quot;</bucket>
+              <bucket>&quot;sindrellastorie&quot;</bucket>
+              <bucket>&quot;SINGLE&quot;</bucket>
+              <bucket>&quot;SINGNI&quot;</bucket>
+              <bucket>&quot;SIRIKIT&quot;</bucket>
+              <bucket>&quot;SIRIL&quot;</bucket>
+              <bucket>&quot;Sisley&quot;</bucket>
+              <bucket>&quot;Sitaram Designer&quot;</bucket>
+              <bucket>&quot;Skechers&quot;</bucket>
+              <bucket>&quot;Skidlers&quot;</bucket>
+              <bucket>&quot;Skirans&quot;</bucket>
+              <bucket>&quot;SKULT by Shahid Kapoor&quot;</bucket>
+              <bucket>&quot;SKY SHOPPIE&quot;</bucket>
+              <bucket>&quot;skyria&quot;</bucket>
+              <bucket>&quot;Slazenger&quot;</bucket>
+              <bucket>&quot;Slenor&quot;</bucket>
+              <bucket>&quot;SLICKFIX&quot;</bucket>
+              <bucket>&quot;Sloggi&quot;</bucket>
+              <bucket>&quot;Slub&quot;</bucket>
+              <bucket>&quot;Slumber Jill&quot;</bucket>
+              <bucket>&quot;Smarty Pants&quot;</bucket>
+              <bucket>&quot;SmileyWorld&quot;</bucket>
+              <bucket>&quot;Smugglerz&quot;</bucket>
+              <bucket>&quot;SMUGGLERZ INC.&quot;</bucket>
+              <bucket>&quot;Snarky Gal&quot;</bucket>
+              <bucket>&quot;Snitch&quot;</bucket>
+              <bucket>&quot;soan&quot;</bucket>
+              <bucket>&quot;Soch&quot;</bucket>
+              <bucket>&quot;SockSoho&quot;</bucket>
+              <bucket>&quot;Softline Butterfly&quot;</bucket>
+              <bucket>&quot;Softrose&quot;</bucket>
+              <bucket>&quot;Softskin&quot;</bucket>
+              <bucket>&quot;Soie&quot;</bucket>
+              <bucket>&quot;SOJANYA&quot;</bucket>
+              <bucket>&quot;SOJANYA PLUS&quot;</bucket>
+              <bucket>&quot;Solemio&quot;</bucket>
+              <bucket>&quot;Solly Jeans Co.&quot;</bucket>
+              <bucket>&quot;Solly Sport&quot;</bucket>
+              <bucket>&quot;SOLOGNAC By Decathlon&quot;</bucket>
+              <bucket>&quot;Somras&quot;</bucket>
+              <bucket>&quot;Sonari&quot;</bucket>
+              <bucket>&quot;SORATIA&quot;</bucket>
+              <bucket>&quot;Souchii&quot;</bucket>
+              <bucket>&quot;Soul Space&quot;</bucket>
+              <bucket>&quot;Souminie&quot;</bucket>
+              <bucket>&quot;SOUNDARYA&quot;</bucket>
+              <bucket>&quot;Southbay&quot;</bucket>
+              <bucket>&quot;Soxytoes&quot;</bucket>
+              <bucket>&quot;SPACES&quot;</bucket>
+              <bucket>&quot;Span&quot;</bucket>
+              <bucket>&quot;SPARROWHAWK&quot;</bucket>
+              <bucket>&quot;Sparx&quot;</bucket>
+              <bucket>&quot;Species&quot;</bucket>
+              <bucket>&quot;Speedo&quot;</bucket>
+              <bucket>&quot;Spera&quot;</bucket>
+              <bucket>&quot;Spirit&quot;</bucket>
+              <bucket>&quot;SPIRIT ANIMAL&quot;</bucket>
+              <bucket>&quot;Spiritus by pantaloons&quot;</bucket>
+              <bucket>&quot;Splash&quot;</bucket>
+              <bucket>&quot;SPORTO&quot;</bucket>
+              <bucket>&quot;Sports52 wear&quot;</bucket>
+              <bucket>&quot;SPYKAR&quot;</bucket>
+              <bucket>&quot;SQew&quot;</bucket>
+              <bucket>&quot;Srey trends&quot;</bucket>
+              <bucket>&quot;Sringam&quot;</bucket>
+              <bucket>&quot;STALK&quot;</bucket>
+              <bucket>&quot;Star Wars by Wear Your Mind&quot;</bucket>
+              <bucket>&quot;STATUS MANTRA&quot;</bucket>
+              <bucket>&quot;Status Quo&quot;</bucket>
+              <bucket>&quot;Steenbok&quot;</bucket>
+              <bucket>&quot;STREET 9&quot;</bucket>
+              <bucket>&quot;Street Armor by Pantaloons&quot;</bucket>
+              <bucket>&quot;STROP&quot;</bucket>
+              <bucket>&quot;studio rasa&quot;</bucket>
+              <bucket>&quot;Studio Shringaar&quot;</bucket>
+              <bucket>&quot;STUDIOACTIV&quot;</bucket>
+              <bucket>&quot;STYL CO.&quot;</bucket>
+              <bucket>&quot;Style Quotient&quot;</bucket>
+              <bucket>&quot;Style SHOES&quot;</bucket>
+              <bucket>&quot;Stylee LIFESTYLE&quot;</bucket>
+              <bucket>&quot;StyleStone&quot;</bucket>
+              <bucket>&quot;Stylum&quot;</bucket>
+              <bucket>&quot;SUBEA By Decathlon&quot;</bucket>
+              <bucket>&quot;Success&quot;</bucket>
+              <bucket>&quot;Sudarshan Silks&quot;</bucket>
+              <bucket>&quot;Sugathari&quot;</bucket>
+              <bucket>&quot;Sugr&quot;</bucket>
+              <bucket>&quot;SUITLTD&quot;</bucket>
+              <bucket>&quot;SuperBottoms&quot;</bucket>
+              <bucket>&quot;Superdry&quot;</bucket>
+              <bucket>&quot;Supersox&quot;</bucket>
+              <bucket>&quot;SURHI&quot;</bucket>
+              <bucket>&quot;Susie&quot;</bucket>
+              <bucket>&quot;Suta&quot;</bucket>
+              <bucket>&quot;SUTI&quot;</bucket>
+              <bucket>&quot;SUTRAM&quot;</bucket>
+              <bucket>&quot;Svanik&quot;</bucket>
+              <bucket>&quot;SVARCHI&quot;</bucket>
+              <bucket>&quot;SWADHA FASHIONS&quot;</bucket>
+              <bucket>&quot;SWAGG INDIA&quot;</bucket>
+              <bucket>&quot;Swasti&quot;</bucket>
+              <bucket>&quot;Swee Shapewear&quot;</bucket>
+              <bucket>&quot;Sweet Dreams&quot;</bucket>
+              <bucket>&quot;SWHF&quot;</bucket>
+              <bucket>&quot;Swishchick&quot;</bucket>
+              <bucket>&quot;Swiss Club&quot;</bucket>
+              <bucket>&quot;SWISS MILITARY&quot;</bucket>
+              <bucket>&quot;Swtantra&quot;</bucket>
+              <bucket>&quot;Sztori&quot;</bucket>
+              <bucket>&quot;Sztori Batman&quot;</bucket>
+              <bucket>&quot;Sztori DC&quot;</bucket>
+              <bucket>&quot;Sztori Disney&quot;</bucket>
+              <bucket>&quot;Sztori Garfield&quot;</bucket>
+              <bucket>&quot;Sztori Marvel&quot;</bucket>
+              <bucket>&quot;Sztori Minions&quot;</bucket>
+              <bucket>&quot;Sztori Superman&quot;</bucket>
+              <bucket>&quot;t-base&quot;</bucket>
+              <bucket>&quot;Taanz&quot;</bucket>
+              <bucket>&quot;Taavi&quot;</bucket>
+              <bucket>&quot;TABARD&quot;</bucket>
+              <bucket>&quot;TAG 7&quot;</bucket>
+              <bucket>&quot;TAG 7 PLUS&quot;</bucket>
+              <bucket>&quot;TAHVO&quot;</bucket>
+              <bucket>&quot;Tailor &amp; Circus&quot;</bucket>
+              <bucket>&quot;TALES &amp; STORIES&quot;</bucket>
+              <bucket>&quot;Taneira&quot;</bucket>
+              <bucket>&quot;TANKHI&quot;</bucket>
+              <bucket>&quot;tantkatha&quot;</bucket>
+              <bucket>&quot;TARA-C-TARA&quot;</bucket>
+              <bucket>&quot;TARAMA&quot;</bucket>
+              <bucket>&quot;TARMAK By Decathlon&quot;</bucket>
+              <bucket>&quot;taruni&quot;</bucket>
+              <bucket>&quot;Tasarika&quot;</bucket>
+              <bucket>&quot;TATTVA&quot;</bucket>
+              <bucket>&quot;Taurus&quot;</bucket>
+              <bucket>&quot;Teakwood Leathers&quot;</bucket>
+              <bucket>&quot;Ted Smith&quot;</bucket>
+              <bucket>&quot;TERQUOIS&quot;</bucket>
+              <bucket>&quot;Texco&quot;</bucket>
+              <bucket>&quot;Texlon&quot;</bucket>
+              <bucket>&quot;THANGAMAGAN&quot;</bucket>
+              <bucket>&quot;Thara Sarees&quot;</bucket>
+              <bucket>&quot;THE AAB STUDIO&quot;</bucket>
+              <bucket>&quot;THE BEAR HOUSE&quot;</bucket>
+              <bucket>&quot;THE BONTE&quot;</bucket>
+              <bucket>&quot;The Chennai Silks&quot;</bucket>
+              <bucket>&quot;THE CLOTHING FACTORY&quot;</bucket>
+              <bucket>&quot;The Dry State&quot;</bucket>
+              <bucket>&quot;The Indian Garage Co&quot;</bucket>
+              <bucket>&quot;the kaatn trail&quot;</bucket>
+              <bucket>&quot;The Kaftan Company&quot;</bucket>
+              <bucket>&quot;The Kurta Express&quot;</bucket>
+              <bucket>&quot;The Label Life&quot;</bucket>
+              <bucket>&quot;THE MILLION CLUB&quot;</bucket>
+              <bucket>&quot;The Mini NEEDLE&quot;</bucket>
+              <bucket>&quot;The Mom Store&quot;</bucket>
+              <bucket>&quot;THE NKS PLUS&quot;</bucket>
+              <bucket>&quot;The Pink Moon&quot;</bucket>
+              <bucket>&quot;The Roadster Lifestyle Co&quot;</bucket>
+              <bucket>&quot;THE SILHOUETTE STORE&quot;</bucket>
+              <bucket>&quot;The Souled Store&quot;</bucket>
+              <bucket>&quot;The Tie Hub&quot;</bucket>
+              <bucket>&quot;THE UKKIYO LIFE&quot;</bucket>
+              <bucket>&quot;The Vanca&quot;</bucket>
+              <bucket>&quot;THE WEAVE TRAVELLER&quot;</bucket>
+              <bucket>&quot;Theater&quot;</bucket>
+              <bucket>&quot;Theme&quot;</bucket>
+              <bucket>&quot;thickskin&quot;</bucket>
+              <bucket>&quot;Thomas Scott&quot;</bucket>
+              <bucket>&quot;Thread &amp; Button&quot;</bucket>
+              <bucket>&quot;THREAD MUSTER&quot;</bucket>
+              <bucket>&quot;THREADCURRY&quot;</bucket>
+              <bucket>&quot;Threeness&quot;</bucket>
+              <bucket>&quot;Tiara&quot;</bucket>
+              <bucket>&quot;Tikhi Imli&quot;</bucket>
+              <bucket>&quot;Tiktauli De Corps.&quot;</bucket>
+              <bucket>&quot;Tiktauli De.Corps.&quot;</bucket>
+              <bucket>&quot;Tinted&quot;</bucket>
+              <bucket>&quot;Tissu&quot;</bucket>
+              <bucket>&quot;TNG&quot;</bucket>
+              <bucket>&quot;Tokyo Talkies&quot;</bucket>
+              <bucket>&quot;Tom &amp; Jerry By Sztori&quot;</bucket>
+              <bucket>&quot;TOM BURG&quot;</bucket>
+              <bucket>&quot;Tommy Hilfiger&quot;</bucket>
+              <bucket>&quot;toothless&quot;</bucket>
+              <bucket>&quot;Toshee&quot;</bucket>
+              <bucket>&quot;Tossido&quot;</bucket>
+              <bucket>&quot;Touch Trends&quot;</bucket>
+              <bucket>&quot;TREEMODA&quot;</bucket>
+              <bucket>&quot;Trend Arrest&quot;</bucket>
+              <bucket>&quot;TRENDY DIVVA&quot;</bucket>
+              <bucket>&quot;Trendyol&quot;</bucket>
+              <bucket>&quot;TRIBAN By Decathlon&quot;</bucket>
+              <bucket>&quot;Tribord By Decathlon&quot;</bucket>
+              <bucket>&quot;Trident&quot;</bucket>
+              <bucket>&quot;TRISHAA BY PANTALOONS&quot;</bucket>
+              <bucket>&quot;TRISHLA INDIA&quot;</bucket>
+              <bucket>&quot;Triumph&quot;</bucket>
+              <bucket>&quot;Triveni&quot;</bucket>
+              <bucket>&quot;True Blue&quot;</bucket>
+              <bucket>&quot;trueBrowns&quot;</bucket>
+              <bucket>&quot;Truerevo&quot;</bucket>
+              <bucket>&quot;Trufit&quot;</bucket>
+              <bucket>&quot;TRUNDZ&quot;</bucket>
+              <bucket>&quot;TULIP 21&quot;</bucket>
+              <bucket>&quot;Tulsattva&quot;</bucket>
+              <bucket>&quot;Tuna London&quot;</bucket>
+              <bucket>&quot;Turtle&quot;</bucket>
+              <bucket>&quot;Tusok&quot;</bucket>
+              <bucket>&quot;Tweens&quot;</bucket>
+              <bucket>&quot;Twenty3&quot;</bucket>
+              <bucket>&quot;TWIN BIRDS&quot;</bucket>
+              <bucket>&quot;U.S. Polo Assn.&quot;</bucket>
+              <bucket>&quot;U.S. Polo Assn. Denim Co.&quot;</bucket>
+              <bucket>&quot;U.S. Polo Assn. Tailored&quot;</bucket>
+              <bucket>&quot;U.S. Polo Assn. Women&quot;</bucket>
+              <bucket>&quot;U&amp;F&quot;</bucket>
+              <bucket>&quot;UCLA&quot;</bucket>
+              <bucket>&quot;Ultimo&quot;</bucket>
+              <bucket>&quot;ULTRAMATE&quot;</bucket>
+              <bucket>&quot;UnaOne&quot;</bucket>
+              <bucket>&quot;UNDER ARMOUR&quot;</bucket>
+              <bucket>&quot;Undercolors of Benetton&quot;</bucket>
+              <bucket>&quot;UnderJeans by Spykar&quot;</bucket>
+              <bucket>&quot;UNISETS&quot;</bucket>
+              <bucket>&quot;United Colors of Benetton&quot;</bucket>
+              <bucket>&quot;UNITED LIBERTY&quot;</bucket>
+              <bucket>&quot;UNMADE&quot;</bucket>
+              <bucket>&quot;Unnati Silks&quot;</bucket>
+              <bucket>&quot;UNSULLY&quot;</bucket>
+              <bucket>&quot;UNTUNG&quot;</bucket>
+              <bucket>&quot;Uptownie Lite&quot;</bucket>
+              <bucket>&quot;Urban Dog&quot;</bucket>
+              <bucket>&quot;Urban Ranger by pantaloons&quot;</bucket>
+              <bucket>&quot;URBAN SCOTTISH&quot;</bucket>
+              <bucket>&quot;urban undress&quot;</bucket>
+              <bucket>&quot;URBANIC&quot;</bucket>
+              <bucket>&quot;Urbano Fashion&quot;</bucket>
+              <bucket>&quot;Urbano Plus&quot;</bucket>
+              <bucket>&quot;UrGear&quot;</bucket>
+              <bucket>&quot;Uri and MacKenzie&quot;</bucket>
+              <bucket>&quot;urSense&quot;</bucket>
+              <bucket>&quot;V Dot&quot;</bucket>
+              <bucket>&quot;V SALES&quot;</bucket>
+              <bucket>&quot;V TRADITION&quot;</bucket>
+              <bucket>&quot;V2 Value &amp; Variety&quot;</bucket>
+              <bucket>&quot;V-Mart&quot;</bucket>
+              <bucket>&quot;V&amp;M&quot;</bucket>
+              <bucket>&quot;VAABA&quot;</bucket>
+              <bucket>&quot;VAABASTA&quot;</bucket>
+              <bucket>&quot;Vaak&quot;</bucket>
+              <bucket>&quot;VAIRAGEE&quot;</bucket>
+              <bucket>&quot;VAIVIDHYAM&quot;</bucket>
+              <bucket>&quot;Vami&quot;</bucket>
+              <bucket>&quot;Van Heusen&quot;</bucket>
+              <bucket>&quot;Van Heusen ACADEMY&quot;</bucket>
+              <bucket>&quot;VAN HEUSEN DENIM LABS&quot;</bucket>
+              <bucket>&quot;Van Heusen Flex&quot;</bucket>
+              <bucket>&quot;Van Heusen Sport&quot;</bucket>
+              <bucket>&quot;Van Heusen Woman&quot;</bucket>
+              <bucket>&quot;VANCA ECO&quot;</bucket>
+              <bucket>&quot;Vandnam Fabrics&quot;</bucket>
+              <bucket>&quot;VARA SILK&quot;</bucket>
+              <bucket>&quot;Varanga&quot;</bucket>
+              <bucket>&quot;Varkala Silk Sarees&quot;</bucket>
+              <bucket>&quot;Varkha Fashion&quot;</bucket>
+              <bucket>&quot;Vartah&quot;</bucket>
+              <bucket>&quot;VARUDU&quot;</bucket>
+              <bucket>&quot;VARUSHKA&quot;</bucket>
+              <bucket>&quot;Vastraa Fusion&quot;</bucket>
+              <bucket>&quot;VASTRADO&quot;</bucket>
+              <bucket>&quot;VASTRAMAY&quot;</bucket>
+              <bucket>&quot;VASTRAMAY PLUS&quot;</bucket>
+              <bucket>&quot;VASTRANAND&quot;</bucket>
+              <bucket>&quot;Vasudha&quot;</bucket>
+              <bucket>&quot;Vbuyz&quot;</bucket>
+              <bucket>&quot;VeBNoR&quot;</bucket>
+              <bucket>&quot;VEDANA&quot;</bucket>
+              <bucket>&quot;VEGA&quot;</bucket>
+              <bucket>&quot;VEI SASTRE&quot;</bucket>
+              <bucket>&quot;VEIRDO&quot;</bucket>
+              <bucket>&quot;VELOZ&quot;</bucket>
+              <bucket>&quot;Vemante&quot;</bucket>
+              <bucket>&quot;Veni Vidi Vici&quot;</bucket>
+              <bucket>&quot;VENISA&quot;</bucket>
+              <bucket>&quot;VENITIAN&quot;</bucket>
+              <bucket>&quot;Vento&quot;</bucket>
+              <bucket>&quot;VERO AMORE&quot;</bucket>
+              <bucket>&quot;Vero Moda&quot;</bucket>
+              <bucket>&quot;VERO MODA CURVE&quot;</bucket>
+              <bucket>&quot;VERO MODA EASE&quot;</bucket>
+              <bucket>&quot;VILLAIN&quot;</bucket>
+              <bucket>&quot;VIMAL&quot;</bucket>
+              <bucket>&quot;VIMAL JONNEY&quot;</bucket>
+              <bucket>&quot;VINENZIA&quot;</bucket>
+              <bucket>&quot;Vishudh&quot;</bucket>
+              <bucket>&quot;VividArtsy&quot;</bucket>
+              <bucket>&quot;Vogue Era&quot;</bucket>
+              <bucket>&quot;Voi Jeans&quot;</bucket>
+              <bucket>&quot;VOXATI&quot;</bucket>
+              <bucket>&quot;VRSALES&quot;</bucket>
+              <bucket>&quot;Vrundavan ethics&quot;</bucket>
+              <bucket>&quot;VS&quot;</bucket>
+              <bucket>&quot;VStar&quot;</bucket>
+              <bucket>&quot;VUDU&quot;</bucket>
+              <bucket>&quot;Vvoguish&quot;</bucket>
+              <bucket>&quot;W&quot;</bucket>
+              <bucket>&quot;Waahiba&quot;</bucket>
+              <bucket>&quot;Wabii&quot;</bucket>
+              <bucket>&quot;Wacoal&quot;</bucket>
+              <bucket>&quot;WAIMEA&quot;</bucket>
+              <bucket>&quot;Warthy Ent&quot;</bucket>
+              <bucket>&quot;WATKO By Decathlon&quot;</bucket>
+              <bucket>&quot;Wear Equal&quot;</bucket>
+              <bucket>&quot;Wear Your Mind&quot;</bucket>
+              <bucket>&quot;Wear Your Opinion&quot;</bucket>
+              <bucket>&quot;WEAVERS VILLA&quot;</bucket>
+              <bucket>&quot;WEDZE By Decathlon&quot;</bucket>
+              <bucket>&quot;WELBAWT&quot;</bucket>
+              <bucket>&quot;WEST VOGUE by Zivame&quot;</bucket>
+              <bucket>&quot;WESTCLO&quot;</bucket>
+              <bucket>&quot;Westwood&quot;</bucket>
+              <bucket>&quot;wHAT&apos;S DOwn&quot;</bucket>
+              <bucket>&quot;WHITE FIRE&quot;</bucket>
+              <bucket>&quot;WHITE HEART&quot;</bucket>
+              <bucket>&quot;Wicked Stitch&quot;</bucket>
+              <bucket>&quot;wild U&quot;</bucket>
+              <bucket>&quot;WILD WEST&quot;</bucket>
+              <bucket>&quot;WILD WEST Plus&quot;</bucket>
+              <bucket>&quot;Wildcraft&quot;</bucket>
+              <bucket>&quot;William White&quot;</bucket>
+              <bucket>&quot;Wills Lifestyle&quot;</bucket>
+              <bucket>&quot;WineRed&quot;</bucket>
+              <bucket>&quot;Wintage&quot;</bucket>
+              <bucket>&quot;WISHFUL&quot;</bucket>
+              <bucket>&quot;WISSTLER&quot;</bucket>
+              <bucket>&quot;WITH&quot;</bucket>
+              <bucket>&quot;Wodreams&quot;</bucket>
+              <bucket>&quot;Wolfpack&quot;</bucket>
+              <bucket>&quot;Women Republic&quot;</bucket>
+              <bucket>&quot;Women Touch&quot;</bucket>
+              <bucket>&quot;Wonder Woman&quot;</bucket>
+              <bucket>&quot;Woodland&quot;</bucket>
+              <bucket>&quot;Woods&quot;</bucket>
+              <bucket>&quot;WOOFFLY&quot;</bucket>
+              <bucket>&quot;WoowZerz&quot;</bucket>
+              <bucket>&quot;Wrangler&quot;</bucket>
+              <bucket>&quot;WROGN&quot;</bucket>
+              <bucket>&quot;WROGN ACTIVE&quot;</bucket>
+              <bucket>&quot;WTFUNK&quot;</bucket>
+              <bucket>&quot;Wuxi&quot;</bucket>
+              <bucket>&quot;Wyfees&quot;</bucket>
+              <bucket>&quot;WYRE&quot;</bucket>
+              <bucket>&quot;XIN&quot;</bucket>
+              <bucket>&quot;XL LOVE by Janasya&quot;</bucket>
+              <bucket>&quot;XO LOVE&quot;</bucket>
+              <bucket>&quot;XOXO Design&quot;</bucket>
+              <bucket>&quot;Xpose&quot;</bucket>
+              <bucket>&quot;XYXX&quot;</bucket>
+              <bucket>&quot;Yaadleen&quot;</bucket>
+              <bucket>&quot;YAK YAK&quot;</bucket>
+              <bucket>&quot;YAMAMAY&quot;</bucket>
+              <bucket>&quot;YASH GALLERY&quot;</bucket>
+              <bucket>&quot;Yashika&quot;</bucket>
+              <bucket>&quot;YAVI&quot;</bucket>
+              <bucket>&quot;YCANF&quot;</bucket>
+              <bucket>&quot;YELLOW PARROT&quot;</bucket>
+              <bucket>&quot;Yogue Activewear&quot;</bucket>
+              <bucket>&quot;YOLOCLAN&quot;</bucket>
+              <bucket>&quot;YOONOY&quot;</bucket>
+              <bucket>&quot;YOU FOREVER&quot;</bucket>
+              <bucket>&quot;Young Trendz&quot;</bucket>
+              <bucket>&quot;Youthnic&quot;</bucket>
+              <bucket>&quot;YOVISH&quot;</bucket>
+              <bucket>&quot;Yufta&quot;</bucket>
+              <bucket>&quot;Yuris&quot;</bucket>
+              <bucket>&quot;Yuuki&quot;</bucket>
+              <bucket>&quot;Yuvraah&quot;</bucket>
+              <bucket>&quot;ZALORA ACTIVE&quot;</bucket>
+              <bucket>&quot;ZALORA BASICS&quot;</bucket>
+              <bucket>&quot;ZALORA OCCASION&quot;</bucket>
+              <bucket>&quot;ZALORA WORK&quot;</bucket>
+              <bucket>&quot;Zalza&quot;</bucket>
+              <bucket>&quot;Zanani INDIA&quot;</bucket>
+              <bucket>&quot;Zarlin&quot;</bucket>
+              <bucket>&quot;Zastraa&quot;</bucket>
+              <bucket>&quot;Zaveri Pearls&quot;</bucket>
+              <bucket>&quot;Zeal&quot;</bucket>
+              <bucket>&quot;zebu&quot;</bucket>
+              <bucket>&quot;Zeel&quot;</bucket>
+              <bucket>&quot;Zelen&quot;</bucket>
+              <bucket>&quot;Zelocity&quot;</bucket>
+              <bucket>&quot;Zelocity by Zivame&quot;</bucket>
+              <bucket>&quot;Zeyo&quot;</bucket>
+              <bucket>&quot;ZHEIA&quot;</bucket>
+              <bucket>&quot;Zigo&quot;</bucket>
+              <bucket>&quot;Zima Leto&quot;</bucket>
+              <bucket>&quot;Zink London&quot;</bucket>
+              <bucket>&quot;zink Z&quot;</bucket>
+              <bucket>&quot;Ziva Fashion&quot;</bucket>
+              <bucket>&quot;Zivame&quot;</bucket>
+              <bucket>&quot;ZIYAA&quot;</bucket>
+              <bucket>&quot;ZIZO By Namrata Bajaj&quot;</bucket>
+              <bucket>&quot;ZNX Clothing&quot;</bucket>
+              <bucket>&quot;ZOELLA&quot;</bucket>
+              <bucket>&quot;ZOEYAMS&quot;</bucket>
+              <bucket>&quot;ZOLA&quot;</bucket>
+              <bucket>&quot;Zotw&quot;</bucket>
+              <bucket>&quot;ZRI&quot;</bucket>
+              <bucket>&quot;ZUSH&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:BrandName:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0mcw9ry06q4cz819rc2mc08fie20].[avg:Calculation_0098181873975296:qk]</rows>
+        <cols>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:BrandName:nk]</cols>
+      </table>
+      <simple-id uuid='{90FDB89F-F39F-4522-90F5-C24EE18426EA}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9E6CA16A-0218-49EB-8DC3-83AF37C0DCF1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98140' id='3' name='Sheet 2' w='97538' x='1231' y='930'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='7' param='vert' type-v2='layout-flow' w='97538' x='1231' y='930'>
+                <zone fixed-size='280' h='98140' id='3' is-fixed='true' name='Sheet 2' w='97538' x='1231' y='930'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AAFD6370-7CB2-4CED-B353-63C43F95D0A1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mcw9ry06q4cz819rc2mc08fie20].[:Measure Names]</field>
+            <field>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:Category:nk]</field>
+            <field>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:OriginalPrice (in Rs) (bin):qk]</field>
+            <field>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:category_by_Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{80C0E861-A51D-49C2-95C8-E3E4C39FEDD9}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{D7EF4EFF-16E6-490A-8CE4-9939F5CA7EBB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mcw9ry06q4cz819rc2mc08fie20].[none:BrandName:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{23C065C3-9636-48F5-A07A-6AA38E7DDAEA}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BF9E4A69-D8DD-41CB-9B15-A1FD4CA8F3C5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      f6KSQ/MmUPR9AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      QmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
